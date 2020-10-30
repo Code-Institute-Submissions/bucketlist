@@ -107,7 +107,7 @@ def logout():
 
 
 @app.route("/add_intention", methods=["GET", "POST"])
-def add_intention):
+def add_intention():
     if request.method == "POST":
         is_urgent = "on" if request.form.get("is_urgent") else "off"
         intention = {
