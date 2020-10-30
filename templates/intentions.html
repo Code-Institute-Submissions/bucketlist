@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+{% block content %}
+
+
+    {% if intentions|length > 0 %}
+    <ul class="collapsible">
+        {% for intention in intentions %}
+        <li>
+            <div class="collapsible-header white-text light-blue darken-4 text-shadow">
+                <div class="col s3">
+                    <i class="fas fa-caret-down"></i>
+                    {% if session.user|lower == intention.created_by|lower %}
+                        <a href="{{ url_for('delete_intention', intention_id=intention._id) }}" class="btn-small green accent-4">Done</a>
+                        <a href="{{ url_for('edit_intention', intention_id=intention._id) }}" class="btn-small light-blue lighten-1">Edit</a>
+                    {% endif %}
+                </div>
+                <div class="col s9">
+                    <strong>{{ intention.intention_name }}</strong> 
+                </div>
+            </div>
+            <div class="collapsible-body">
+                <strong>{{ intention.category_name }}</strong>
+                <p>{{ intention.intention_description }}</p>
+                <p><em>by: {{ intention.created_by }}</em></p>
+            </div>
+        </li>
+        {% endfor %}
+    </ul>
+    {% else %}
+        <h3 class="red-text text-darken-4 center-align">No Results Found</h3>
+    {% endif %}
+
+{% endblock %}
