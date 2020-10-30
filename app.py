@@ -109,13 +109,10 @@ def logout():
 @app.route("/add_intention", methods=["GET", "POST"])
 def add_intention():
     if request.method == "POST":
-        is_urgent = "on" if request.form.get("is_urgent") else "off"
         intention = {
             "division_name": request.form.get("division_name"),
             "intention_name": request.form.get("intention_name"),
             "intention_description": request.form.get("intention_description"),
-            "is_urgent": is_urgent,
-            "due_date": request.form.get("due_date"),
             "created_by": session["user"]
         }
         mongo.db.intentions.insert_one(intention)
@@ -129,13 +126,10 @@ def add_intention():
 @app.route("/edit_intention/<intention_id>", methods=["GET", "POST"])
 def edit_intention(intention_id):
     if request.method == "POST":
-        is_urgent = "on" if request.form.get("is_urgent") else "off"
         submit = {
             "division_name": request.form.get("division_name"),
             "intention_name": request.form.get("intention_name"),
             "intention_description": request.form.get("intention_description"),
-            "is_urgent": is_urgent,
-            "due_date": request.form.get("due_date"),
             "created_by": session["user"]
         }
         mongo.db.intentions.update({"_id": ObjectId(intention_id)}, submit)
