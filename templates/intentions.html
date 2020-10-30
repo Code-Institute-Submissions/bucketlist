@@ -1,12 +1,17 @@
 {% extends "base.html" %}
 {% block content %}
 
+    <!-- main text -->
+    <section>
+        <h2 class="center-align">What is on our Bucketlist!</h2>
+    </section>
 
+    <!-- all intentions -->
     {% if intentions|length > 0 %}
     <ul class="collapsible">
         {% for intention in intentions %}
         <li>
-            <div class="collapsible-header white-text light-blue darken-4 text-shadow">
+            <div class="collapsible-header white-text #1b5e20 green darken-4 text-shadow">
                 <div class="col s3">
                     <i class="fas fa-caret-down"></i>
                     {% if session.user|lower == intention.created_by|lower %}
