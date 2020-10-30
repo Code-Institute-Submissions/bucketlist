@@ -19,17 +19,17 @@ mongo = PyMongo(app)
 
 
 @app.route("/")
-@app.route("/get_tasks")
-def get_tasks():
-    tasks = list(mongo.db.tasks.find())
-    return render_template("tasks.html", tasks=tasks)
+@app.route("/get_intentions")
+def get_intentions():
+    intentions = list(mongo.db.intentions.find())
+    return render_template("intentions.html", intentions=intentions)
 
 
 @app.route("/search", methods=["GET", "POST"])
 def search():
     query = request.form.get("query")
-    tasks = list(mongo.db.tasks.find({"$text": {"$search": query}}))
-    return render_template("tasks.html", tasks=tasks)
+    intentions = list(mongo.db.intentions.find({"$text": {"$search": query}}))
+    return render_template("intentions.html", intentions=intentions)
 
 
 @app.route("/register", methods=["GET", "POST"])
@@ -106,51 +106,51 @@ def logout():
     return redirect(url_for("login"))
 
 
-@app.route("/add_task", methods=["GET", "POST"])
-def add_task():
+@app.route("/add_intention", methods=["GET", "POST"])
+def add_intention):
     if request.method == "POST":
         is_urgent = "on" if request.form.get("is_urgent") else "off"
-        task = {
+        intention = {
             "division_name": request.form.get("division_name"),
-            "task_name": request.form.get("task_name"),
-            "task_description": request.form.get("task_description"),
+            "intention_name": request.form.get("intention_name"),
+            "intention_description": request.form.get("intention_description"),
             "is_urgent": is_urgent,
             "due_date": request.form.get("due_date"),
             "created_by": session["user"]
         }
-        mongo.db.tasks.insert_one(task)
-        flash("Task Successfully Added")
-        return redirect(url_for("get_tasks"))
+        mongo.db.intentions.insert_one(intention)
+        flash("Intention Successfully Added")
+        return redirect(url_for("get_intentions"))
 
     divisions = mongo.db.divisions.find().sort("division_name", 1)
-    return render_template("add_task.html", divisions=divisions)
+    return render_template("add_intention.html", divisions=divisions)
 
 
-@app.route("/edit_task/<task_id>", methods=["GET", "POST"])
-def edit_task(task_id):
+@app.route("/edit_intention/<intention_id>", methods=["GET", "POST"])
+def edit_intention(intention_id):
     if request.method == "POST":
         is_urgent = "on" if request.form.get("is_urgent") else "off"
         submit = {
             "division_name": request.form.get("division_name"),
-            "task_name": request.form.get("task_name"),
-            "task_description": request.form.get("task_description"),
+            "intention_name": request.form.get("intention_name"),
+            "intention_description": request.form.get("intention_description"),
             "is_urgent": is_urgent,
             "due_date": request.form.get("due_date"),
             "created_by": session["user"]
         }
-        mongo.db.tasks.update({"_id": ObjectId(task_id)}, submit)
-        flash("Task Successfully Updated")
+        mongo.db.intentions.update({"_id": ObjectId(intention_id)}, submit)
+        flash("Intention Successfully Updated")
 
-    task = mongo.db.tasks.find_one({"_id": ObjectId(task_id)})
+    intention = mongo.db.intentions.find_one({"_id": ObjectId(intention_id)})
     divisions = mongo.db.divisions.find().sort("division_name", 1)
-    return render_template("edit_task.html", task=task, divisions=divisions)
+    return render_template("edit_intention.html", intention=intention, divisions=divisions)
 
 
-@app.route("/delete_task/<task_id>")
-def delete_task(task_id):
-    mongo.db.tasks.remove({"_id": ObjectId(task_id)})
-    flash("Task Successfully Deleted")
-    return redirect(url_for("get_tasks"))
+@app.route("/delete_intention/<intention_id>")
+def delete_intention(intention_id):
+    mongo.db.intentions.remove({"_id": ObjectId(intention_id)})
+    flash("Intention Successfully Deleted")
+    return redirect(url_for("get_intentions"))
 
 
 @app.route("/get_divisions")
