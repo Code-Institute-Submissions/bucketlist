@@ -111,7 +111,7 @@ def add_task():
     if request.method == "POST":
         is_urgent = "on" if request.form.get("is_urgent") else "off"
         task = {
-            "category_name": request.form.get("category_name"),
+            "division_name": request.form.get("division_name"),
             "task_name": request.form.get("task_name"),
             "task_description": request.form.get("task_description"),
             "is_urgent": is_urgent,
@@ -122,8 +122,8 @@ def add_task():
         flash("Task Successfully Added")
         return redirect(url_for("get_tasks"))
 
-    categories = mongo.db.categories.find().sort("category_name", 1)
-    return render_template("add_task.html", categories=categories)
+    divisions = mongo.db.divisions.find().sort("division_name", 1)
+    return render_template("add_task.html", divisions=divisions)
 
 
 @app.route("/edit_task/<task_id>", methods=["GET", "POST"])
@@ -131,7 +131,7 @@ def edit_task(task_id):
     if request.method == "POST":
         is_urgent = "on" if request.form.get("is_urgent") else "off"
         submit = {
-            "category_name": request.form.get("category_name"),
+            "division_name": request.form.get("division_name"),
             "task_name": request.form.get("task_name"),
             "task_description": request.form.get("task_description"),
             "is_urgent": is_urgent,
@@ -142,8 +142,8 @@ def edit_task(task_id):
         flash("Task Successfully Updated")
 
     task = mongo.db.tasks.find_one({"_id": ObjectId(task_id)})
-    categories = mongo.db.categories.find().sort("category_name", 1)
-    return render_template("edit_task.html", task=task, categories=categories)
+    divisions = mongo.db.divisions.find().sort("division_name", 1)
+    return render_template("edit_task.html", task=task, divisions=divisions)
 
 
 @app.route("/delete_task/<task_id>")
@@ -153,44 +153,44 @@ def delete_task(task_id):
     return redirect(url_for("get_tasks"))
 
 
-@app.route("/get_categories")
-def get_categories():
-    categories = list(mongo.db.categories.find().sort("category_name", 1))
-    return render_template("categories.html", categories=categories)
+@app.route("/get_divisions")
+def get_divisions():
+    divisions = list(mongo.db.divisions.find().sort("division_name", 1))
+    return render_template("divisions.html", divisions=divisions)
 
 
-@app.route("/add_category", methods=["GET", "POST"])
-def add_category():
+@app.route("/add_division", methods=["GET", "POST"])
+def add_division():
     if request.method == "POST":
-        category = {
-            "category_name": request.form.get("category_name")
+        division = {
+            "division_name": request.form.get("division_name")
         }
-        mongo.db.categories.insert_one(category)
-        flash("New Category Added")
-        return redirect(url_for("get_categories"))
+        mongo.db.divisions.insert_one(division)
+        flash("New Division Added")
+        return redirect(url_for("get_divisions"))
 
-    return render_template("add_category.html")
+    return render_template("add_division.html")
 
 
-@app.route("/edit_category/<category_id>", methods=["GET", "POST"])
-def edit_category(category_id):
+@app.route("/edit_division/<division_id>", methods=["GET", "POST"])
+def edit_division(division_id):
     if request.method == "POST":
         submit = {
-            "category_name": request.form.get("category_name")
+            "division_name": request.form.get("division_name")
         }
-        mongo.db.categories.update({"_id": ObjectId(category_id)}, submit)
-        flash("Category Successfully Updated")
-        return redirect(url_for("get_categories"))
+        mongo.db.divisions.update({"_id": ObjectId(division_id)}, submit)
+        flash("Division Successfully Updated")
+        return redirect(url_for("get_divisions"))
 
-    category = mongo.db.categories.find_one({"_id": ObjectId(category_id)})
-    return render_template("edit_category.html", category=category)
+    division = mongo.db.divisions.find_one({"_id": ObjectId(division_id)})
+    return render_template("edit_division.html", division=division)
 
 
-@app.route("/delete_category/<category_id>")
-def delete_category(category_id):
-    mongo.db.categories.remove({"_id": ObjectId(category_id)})
-    flash("Category Successfully Deleted")
-    return redirect(url_for("get_categories"))
+@app.route("/delete_division/<division_id>")
+def delete_division(division_id):
+    mongo.db.divisions.remove({"_id": ObjectId(division_id)})
+    flash("Division Successfully Deleted")
+    return redirect(url_for("get_divisions"))
 
 
 if __name__ == "__main__":
