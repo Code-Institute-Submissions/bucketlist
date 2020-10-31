@@ -17,9 +17,9 @@
         <!-- top navbar -->
 		<nav class="nav-extended text-shadow #388e3c green darken-2">
 			<div class="nav-wrapper">
-				<a href="{{ url_for('get_intentions') }}" class="brand-logo">...Bucketlist...</a>
+				<a href="{{ url_for('get_intentions') }}" class="brand-logo" style="font-size:45px; padding-left: 25px;">Bucketlist</a>
 				<a href="#" data-target="mobile-demo" class="sidenav-trigger right"><i class="fas fa-bars"></i></a>
-				<ul class="right hide-on-med-and-down">
+				<ul class="right hide-on-med-and-down" style="padding-right: 25px;"">
 					<li><a href="{{ url_for('get_intentions') }}">Home</a></li>
                     {% if session.user %}
                         <li><a href="{{ url_for('profile', username=session['user']) }}">Profile</a></li>
