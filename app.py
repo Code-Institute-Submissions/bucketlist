@@ -25,13 +25,6 @@ def get_intentions():
     return render_template("intentions.html", intentions=intentions)
 
 
-@app.route("/search", methods=["GET", "POST"])
-def search():
-    query = request.form.get("query")
-    intentions = list(mongo.db.intentions.find({"$text": {"$search": query}}))
-    return render_template("intentions.html", intentions=intentions)
-
-
 @app.route("/register", methods=["GET", "POST"])
 def register():
     if request.method == "POST":
@@ -185,6 +178,18 @@ def delete_division(division_id):
     mongo.db.divisions.remove({"_id": ObjectId(division_id)})
     flash("Division Successfully Deleted")
     return redirect(url_for("get_divisions"))
+
+
+# Delete profile
+
+@app.route("/delete-profile/<user_id>", methods=["GET", "POST"])
+def delete_profile(user_id):
+    # Take the session user username and removes from database
+    mongo.db.users.remove({"username": session["user"]})
+    # Clears the cache after the username has been deleted
+    session.clear()
+    flash("Your profile has been deleted.")
+    return redirect(url_for("get_intentions"))
 
 
 if __name__ == "__main__":
