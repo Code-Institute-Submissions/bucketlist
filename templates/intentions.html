@@ -2,9 +2,10 @@
 {% block content %}
 
     <!-- main text -->
-    <section class="center-align white-text text-shadow" style="background-color: #388e3c">
-        <h3>The collection of our intentions.</h3>
-        <h4>What are your dreams?</h4>
+    <section class="center-align white-text text-shadow" 
+    style="background-image: url('https://cdn.pixabay.com/photo/2015/04/28/20/55/aurora-borealis-744351_1280.jpg')">
+        <h3 style="padding-top:20px">The collection of our intentions.</h3>
+        <h4 style="padding-bottom:20px">What are your dreams?</h4>
     </section>
 
     <!-- all intentions -->
@@ -15,15 +16,15 @@
             <div class="collapsible-header white-text #1b5e20 green darken-4 text-shadow">
                 <div class="col s3">
                     <i class="fas fa-caret-down"></i>
-                    {% if session.user|lower == intention.created_by|lower %}
-                        <a href="{{ url_for('delete_intention', intention_id=intention._id) }}" class="btn-small green accent-4">Done</a>
-                        <a href="{{ url_for('edit_intention', intention_id=intention._id) }}" class="btn-small green accent-4">Edit</a>
-                    {% endif %}
                 </div>
                 <div class="col s9">
                     {{ intention.division_name }}:
                     <strong>{{ intention.intention_name }}</strong>-
                     <em>by: {{ intention.created_by }}</em>
+                    {% if session.user|lower == intention.created_by|lower %}
+                        <a href="{{ url_for('delete_intention', intention_id=intention._id) }}" class="btn-small green accent-4">Done</a>
+                        <a href="{{ url_for('edit_intention', intention_id=intention._id) }}" class="btn-small green accent-4">Edit</a>
+                    {% endif %}
                 </div>
             </div>
             <div class="collapsible-body white-text #388e3c green darken-2 text-shadow">
