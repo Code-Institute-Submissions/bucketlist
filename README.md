@@ -63,34 +63,32 @@ The following wireframes were created using Balsamiq to design the website layou
 ## Features
 The webpage consists of the following features:
 
-* The navigation bar
+__The navigation bar__
 
-* Footer
+__Footer__
 
-* Registration page
-  * The form is set to give feedback if username is too short. There is also error checking against confirmation password mismatch and some basic password criteria. Passwords are hashed using bcrypt and then saved to the database, hashed passwords are compared on login attempt. Once registered the user ill be redirected to their profile page. There is also a link to go to the sign in page here.
+__Registration page__
+The form is set to give feedback if username is too short. There is also error checking against confirmation password mismatch and some basic password criteria. Passwords are hashed using bcrypt and then saved to the database, hashed passwords are compared on login attempt. Once registered the user ill be redirected to their profile page. There is also a link to go to the sign in page here.
 
-* Login page
-  *The login page is simple, users can enter their username and password. This is authenticated in python and feedback is given if the credentials are incorrect. For security all passwords are hashed and the hashed versions are compared. Successfully signing in to the site will direct the user to their profile page. There is also a link here to register a new user.
+__Login page__
+The login page is simple, users can enter their username and password. This is authenticated in python and feedback is given if the credentials are incorrect. For security all passwords are hashed and the hashed versions are compared. Successfully signing in to the site will direct the user to their profile page. There is also a link here to register a new user.
 
-* Profile page
-  * The profile page is a users space to 
+__Profile page__
+The profile page is a users space to 
 This is also where you will delete your profile.
 
-* Intentions Page
-  * CRUD - Read (view) all intentions
+__Intentions Page__
+CRUD - Read (view) all intentions
 This page shows all the posts made on the website.
 
-* Add Intention
-  * CRUD - Add a New Intention.
+__Add Intention__
+CRUD - Add a New Intention.
 A simple form in the same style as all other forms on the website. When a user is logged in they can use this form to add a new intention. The following details need to be filled in on this form:
-* 
-* 
-* 
+
 When the Submit button is pressed the post is sent to the Mongo database and will show up on the main intentions page.
 
-* Edit Intention
-  * CRUD - Update and Delete a Post
+__Edit Intention__
+CRUD - Update and Delete a Post
 When the submit button is pressed the updated information gets sent to the database for that post.
 
 ### Code structure
