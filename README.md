@@ -6,15 +6,15 @@
 
 ## Table of Contents
 * <a href="#user-content-ux" id="ux">UX</a>
-  * [User Goals](User-Goals)
-  * [User Stories](User-Stories)
-  * [Strategy](Strategy)
-  * [Scope](Scope)
-  * [Structure](Structure)
-  * [Skeleton](Skeleton)
-  * [Surface](Surface)
-  * [Mockups](Mockups)
-  * [Database Schema](Database-Schema)
+  * <a href="#user-content-user-goals" id="user-goals">User Goals</a>
+  * <a href="#user-content-user-stories" id="user-stories">User Stories</a>
+  * <a href="#user-content-strategy" id="strategy">Strategy</a>
+  * <a href="#user-content-scope" id="scope">Scope</a>
+  * <a href="#user-content-structure" id="structure">Structure</a>
+  * <a href="#user-content-skeleton" id="skeleton">Skeleton</a>
+  * <a href="#user-content-surface" id="surface">Surface</a>
+  * <a href="#user-content-mockups" id="mockups">Mockups</a>
+  * <a href="#user-content-database-schema" id="database-schema">Database-Schema</a>
 * [Features](Features)
   * .
   * .
