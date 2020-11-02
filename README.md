@@ -1,45 +1,91 @@
-<img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
+# Bucketlist
 
-Welcome kimkesdev,
+## Demo
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
+## UX
 
-## Gitpod Reminders
+### User stories
+<ul>
+  <li
+  <li>
+  <li>
+  <li>
+  <li>
+  <li>
+  <li>
+  <li>
+</ul>
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+### Strategy
 
-`python3 -m http.server`
+### Scope
 
-A blue button should appear to click: *Make Public*,
+### Structure
 
-Another blue button should appear to click: *Open Browser*.
+### Skeleton
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+### Surface
 
-A blue button should appear to click: *Make Public*,
+### Mockups
+The following wireframes were created using Balsamiq to design the website layout options.
+Homepage
+Register page
+Login page
+Add intention page
 
-Another blue button should appear to click: *Open Browser*.
+### Database Schema
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+## Features
+The webpage consists of the following features:
+### The navigation bar
+### Footer
+### Registration page
+The form is set to give feedback if username is too short. There is also error checking against confirmation password mismatch and some basic password criteria. Passwords are hashed using bcrypt and then saved to the database, hashed passwords are compared on login attempt. Once registered the user ill be redirected to their profile page. There is also a link to go to the sign in page here.
+### Login page
+The login page is simple, users can enter their username and password. This is authenticated in python and feedback is given if the credentials are incorrect. For security all passwords are hashed and the hashed versions are compared. Successfully signing in to the site will direct the user to their profile page. There is also a link here to register a new user.
+### Profile page
+The profile page is a users space to 
+This is also where you will delete your profile.
+### Code structure
+### Features Left to Implement
 
-## Updates Since The Instructional Video
+## Technologies
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+### Languages
+<ul>
+  <li>Python 3 - Used for backend data manipulation
+  <li>Flask 1.0.2 - Used as the main framework for my application
+  <li>PyMongo - Used to communicate with the mongoDB database
+  <li>HTML5 - Used as the main language for the templates
+  <li>CCS3 - Used for styling the webpage
+  <li>JavaScript - Used for some front end functionality
+  <li>Git - Used for version control
+  <li>Materialize - Used as the main frontend framework
+  <li>Fontawesom - Used for some icons on the website
+  <li>Heroku - Used to host the website
+  <li>GitHub Used to store my project source code
+  <li>jQuery
+  <li>MongoDB - Used as the main database technology
+  <li>Atlas
+  <li>W3C Markup - Used this to check my HTML for errors and typos.
+  <li>W3C CSS - Used this to check the validity of my CSS.
+</ul>
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+## Credits
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+### Content
+The content is made up and written by me.
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+### Media
+The photos used in this website were obtained from Pixabay.
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
---------
-
-Happy coding!
+### Acknowledgements
+<ul>
+  <li>Bootstrap4 Docs
+  <li>Fontawesome Icons
+  <li>Flask Docs
+  <li>Mongo Docs
+  <li>Slack
+  <li>Google
+  <li>YouTube
+</ul>
