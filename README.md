@@ -5,17 +5,17 @@
 [Live website](https://kimkesdev.github.io/YogaCity/.)
 
 ## Table of Contents
-* [UX](#UX)
-  * User Goals
-  * User Stories
-  * Strategy
-  * Scope
-  * Structure
-  * Skeleton
-  * Surface
-  * Mockups
-  * Database Schema
-* Features
+* [UX](UX)
+  * [User Goals](User Goals)
+  * [User Stories](User Stories)
+  * [Strategy](Strategy)
+  * [Scope](Scope)
+  * [Structure](Structure)
+  * [Skeleton](Skeleton)
+  * [Surface](Surface)
+  * [Mockups](Mockups)
+  * [Database Schema](Database Schema)
+* [Features](Features)
   * .
   * .
 * Technologies
