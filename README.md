@@ -2,7 +2,7 @@
 
 ## Deployed Site
 ![](assets/screenshots/website.gif)
-[Live website](https://kimkesdev.github.io/YogaCity/.)
+[Live website](https://bucketlist-2020.herokuapp.com/.)
 
 ## Table of Contents
 * <a href="#user-content-ux" id="ux">UX</a>
