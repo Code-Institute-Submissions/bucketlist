@@ -6,15 +6,15 @@
 
 ## Table of Contents
 * [UX](UX)
-  * [User Goals](User Goals)
-  * [User Stories](User Stories)
+  * [User Goals](User-Goals)
+  * [User Stories](User-Stories)
   * [Strategy](Strategy)
   * [Scope](Scope)
   * [Structure](Structure)
   * [Skeleton](Skeleton)
   * [Surface](Surface)
   * [Mockups](Mockups)
-  * [Database Schema](Database Schema)
+  * [Database Schema](Database-Schema)
 * [Features](Features)
   * .
   * .
@@ -25,7 +25,7 @@
   * Media
   * Acknowledgements
 
-## #UX
+## UX
 
 ### User Goals
 
@@ -37,14 +37,12 @@
 ### Strategy
 
 ### Scope
-A Landing Page that is easy to navigate.
-A footer and navigation bar that change depending on whether the user is logged in or not.
-A register and login form for users to either create a new account or to log in.
-A My Account Page for users to view/edit/delete their posts, and an option to delete their account.
-A Sign Out button that is easy to find on every page (preferably in the navigation bar).
-An About page for both users and new visitors to see what the website does and how to use the website.
-A Posts page where users can see all the posts on the website.
-A way to filter posts so users can see the plants available in their area.
+* A Landing Page that is easy to navigate.
+* A footer and navigation bar that change depending on whether the user is logged in or not.
+* A register and login form for users to either create a new account or to log in.
+* A My Account Page for users to view/edit/delete their posts, and an option to delete their account.
+* A Sign Out button that is easy to find on every page (preferably in the navigation bar).
+* A Posts page where users can see all the posts on the website.
 
 ### Structure
 Color Scheme
@@ -55,10 +53,10 @@ Color Scheme
 
 ### Mockups
 The following wireframes were created using Balsamiq to design the website layout options.
-Homepage
-Register page
-Login page
-Add intention page
+* Homepage
+* Register page
+* Login page
+* Add intention page
 
 ### Database Schema
 
@@ -86,9 +84,9 @@ This page shows all the posts made on the website.
 __Add Intention__
 CRUD - Add a New Intention.
 A simple form in the same style as all other forms on the website. When a user is logged in they can use this form to add a new intention. The following details need to be filled in on this form:
-<ul>
-  <li>
-</ul>
+* 
+* 
+* 
 When the Submit button is pressed the post is sent to the Mongo database and will show up on the main intentions page.
 
 __Edit Intention__
@@ -102,25 +100,25 @@ When the submit button is pressed the updated information gets sent to the datab
 ## Technologies
 
 ### Languages
-Python3 - Used for backend data manipulation <br>
-PyMongo - Used to communicate with the mongoDB database <br>
-[HTML5](https://en.wikipedia.org/wiki/HTML5) - Used as the main language for the templates <br>
-[CSS](https://en.wikipedia.org/wiki/Cascading_Style_Sheets) - Used for styling the webpage <br>
-[JavaScript](https://en.wikipedia.org/wiki/JavaScript) - Used for some front end functionality
+* Python3 - Used for backend data manipulation 
+* PyMongo - Used to communicate with the mongoDB database 
+* [HTML5](https://en.wikipedia.org/wiki/HTML5) - Used as the main language for the templates 
+* [CSS](https://en.wikipedia.org/wiki/Cascading_Style_Sheets) - Used for styling the webpage
+* [JavaScript](https://en.wikipedia.org/wiki/JavaScript) - Used for some front end functionality
 
 ### Libraries/Frameworks/Tools
-[Github](https://github.com/) - Used for version control <br>
-Flask 1.0.2 - Used as the main framework for my application <br>
-[Pixabay](https://pixabay.com/) - Free online images. Used for some images on website <br>
-[Fontawesome](https://fontawesome.com/) - Used for some icons on the website <br>
-[Materialize](https://materializecss.com/) - Used as the main frontend framework <br>
-[Heroku](https://heroku.com/) - Used to host the website <br>
-[GitHub](https://github.com/) Used to store my project source code <br>
-[W3C](https://validator.w3.org/) Markup - Used this to check my HTML for errors and typos <br>
-[W3C CSS](https://jigsaw.w3.org/css-validator/) - Used this to check the validity of my CSS
+* [Github](https://github.com/) - Used for version control 
+* Flask 1.0.2 - Used as the main framework for my application 
+* [Pixabay](https://pixabay.com/) - Free online images. Used for some images on website 
+* [Fontawesome](https://fontawesome.com/) - Used for some icons on the website 
+* [Materialize](https://materializecss.com/) - Used as the main frontend framework 
+* [Heroku](https://heroku.com/) - Used to host the website 
+* [GitHub](https://github.com/) Used to store my project source code 
+* [W3C](https://validator.w3.org/) Markup - Used this to check my HTML for errors and typos
+* [W3C CSS](https://jigsaw.w3.org/css-validator/) - Used this to check the validity of my CSS
 
 ### Databases
-[MongoDB](https://www.mongodb.com/)- Used as the main database technology
+* [MongoDB](https://www.mongodb.com/)- Used as the main database technology
 
 ## Credits
 
@@ -128,15 +126,9 @@ Flask 1.0.2 - Used as the main framework for my application <br>
 The content is made up and written by me.
 
 ### Media
-The photos used in this website were obtained from Pixabay.
+The photos used in this website were obtained from [Pixabay](https://pixabay.com/).
 
 ### Acknowledgements
-<ul>
-  <li>Bootstrap4 Docs
-  <li>Fontawesome Icons
-  <li>Flask Docs
-  <li>Mongo Docs
-  <li>Slack
-  <li>Google
-  <li>YouTube
-</ul>
+* Bootstrap4 Docs
+* Fontawesome Icons
+* Flask Docs
