@@ -5,7 +5,7 @@
 [Live website](https://kimkesdev.github.io/YogaCity/.)
 
 ## Table of Contents
-* [UX](UX)
+* <a href="#user-content-ux" id="ux">UX</a>
   * [User Goals](User-Goals)
   * [User Stories](User-Stories)
   * [Strategy](Strategy)
@@ -25,7 +25,7 @@
   * Media
   * Acknowledgements
 
-## UX
+## UX 
 
 ### User Goals
 
