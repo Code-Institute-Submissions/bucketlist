@@ -1,45 +1,38 @@
 # Bucketlist
 
 ## Deployed Site
+![](assets/screenshots/website.gif)
+[Live website](https://kimkesdev.github.io/YogaCity/.)
 
 ## Table of Contents
-<ul>
-  <li>UX
-    <li>User Goals
-    <li>User Stories
-    <li>Strategy
-    <li>Scope
-    <li>Structure
-    <li>Skeleton
-    <li>Surface
-    <li>Mockups
-    <li>Database Schema
-  <li>Features
-    <li>
-    <li>
-  <li>Technologies
-    <li>Languages
-  <li>Credits
-    <li>Content
-    <li>Media
-    <li>Acknowledgements
-</ul>
+* [UX](#UX)
+  * User Goals
+  * User Stories
+  * Strategy
+  * Scope
+  * Structure
+  * Skeleton
+  * Surface
+  * Mockups
+  * Database Schema
+* Features
+  * .
+  * .
+* Technologies
+  * Languages
+* Credits
+  * Content
+  * Media
+  * Acknowledgements
 
-## UX
+## #UX
 
 ### User Goals
 
 ### User Stories
-<ul>
-  <li>A new user:
-  <li>A login user:
-  <li>
-  <li>
-  <li>
-  <li>
-  <li>
-  <li>
-</ul>
+* A new user:
+* A login user:
+
 
 ### Strategy
 
@@ -72,25 +65,25 @@ Add intention page
 ## Features
 The webpage consists of the following features:
 
-<strong>The navigation bar</strong>
+__The navigation bar__
 
-Footer
-Registration page
+__Footer__
 
+__Registration page__
 The form is set to give feedback if username is too short. There is also error checking against confirmation password mismatch and some basic password criteria. Passwords are hashed using bcrypt and then saved to the database, hashed passwords are compared on login attempt. Once registered the user ill be redirected to their profile page. There is also a link to go to the sign in page here.
 
-Login page
+__Login page__
 The login page is simple, users can enter their username and password. This is authenticated in python and feedback is given if the credentials are incorrect. For security all passwords are hashed and the hashed versions are compared. Successfully signing in to the site will direct the user to their profile page. There is also a link here to register a new user.
 
-Profile page
+__Profile page__
 The profile page is a users space to 
 This is also where you will delete your profile.
 
-Intantions Page
+__Intentions Page__
 CRUD - Read (view) all intentions
 This page shows all the posts made on the website.
 
-Add Intention
+__Add Intention__
 CRUD - Add a New Intention.
 A simple form in the same style as all other forms on the website. When a user is logged in they can use this form to add a new intention. The following details need to be filled in on this form:
 <ul>
@@ -98,42 +91,36 @@ A simple form in the same style as all other forms on the website. When a user i
 </ul>
 When the Submit button is pressed the post is sent to the Mongo database and will show up on the main intentions page.
 
-Edit Intention
+__Edit Intention__
 CRUD - Update and Delete a Post
 When the submit button is pressed the updated information gets sent to the database for that post.
 
-Code structure
+### Code structure
 
-Features Left to Implement
+### Features Left to Implement
 
 ## Technologies
 
 ### Languages
-<ul>
-  <li>Python 3 - Used for backend data manipulation
-  <li>PyMongo - Used to communicate with the mongoDB database
-  <li>HTML5 - Used as the main language for the templates
-  <li>CCS3 - Used for styling the webpage
-  <li>JavaScript - Used for some front end functionality
-</ul>
+Python3 - Used for backend data manipulation <br>
+PyMongo - Used to communicate with the mongoDB database <br>
+[HTML5](https://en.wikipedia.org/wiki/HTML5) - Used as the main language for the templates <br>
+[CSS](https://en.wikipedia.org/wiki/Cascading_Style_Sheets) - Used for styling the webpage <br>
+[JavaScript](https://en.wikipedia.org/wiki/JavaScript) - Used for some front end functionality
 
 ### Libraries/Frameworks/Tools
-<ul>
-  <li>[Github](https://github.com/) - Used for version control
-  <li>Flask 1.0.2 - Used as the main framework for my application
-  <li>[Pixabay](https://pixabay.com/) - Free online images. Used for some images on website.
-  <li>[Fontawesome](https://fontawesome.com/) - Used for some icons on the website
-  <li>[Materialize](https://materializecss.com/) - Used as the main frontend framework
-  <li>[Heroku](https://heroku.com/) - Used to host the website
-  <li>[GitHub](https://github.com/) Used to store my project source code
-  <li>[W3C](https://validator.w3.org/) Markup - Used this to check my HTML for errors and typos.
-  <li>[W3C CSS](https://jigsaw.w3.org/css-validator/) - Used this to check the validity of my CSS.
-</ul>
+[Github](https://github.com/) - Used for version control <br>
+Flask 1.0.2 - Used as the main framework for my application <br>
+[Pixabay](https://pixabay.com/) - Free online images. Used for some images on website <br>
+[Fontawesome](https://fontawesome.com/) - Used for some icons on the website <br>
+[Materialize](https://materializecss.com/) - Used as the main frontend framework <br>
+[Heroku](https://heroku.com/) - Used to host the website <br>
+[GitHub](https://github.com/) Used to store my project source code <br>
+[W3C](https://validator.w3.org/) Markup - Used this to check my HTML for errors and typos <br>
+[W3C CSS](https://jigsaw.w3.org/css-validator/) - Used this to check the validity of my CSS
 
 ### Databases
-<ul>
-  <li>[MongoDB](https://www.mongodb.com/)- Used as the main database technology
-</ul>
+[MongoDB](https://www.mongodb.com/)- Used as the main database technology
 
 ## Credits
 
