@@ -4,7 +4,7 @@
 
 ## Table of Contents
 <ul>
-  <ol>UX
+  <li>UX
     <li>User Goals
     <li>User Stories
     <li>Strategy
@@ -14,12 +14,12 @@
     <li>Surface
     <li>Mockups
     <li>Database Schema
-  <ol>Features
+  <li>Features
     <li>
     <li>
-  <ol>Technologies
+  <li>Technologies
     <li>Languages
-  <ol>Credits
+  <li>Credits
     <li>Content
     <li>Media
     <li>Acknowledgements
@@ -119,20 +119,20 @@ Features Left to Implement
 
 ### Libraries/Frameworks/Tools
 <ul>
-  <li>Git - Used for version control
+  <li>[Github](https://github.com/) - Used for version control
   <li>Flask 1.0.2 - Used as the main framework for my application
-  <li>Pixabay - Free online images. Used for some images on website.
-  <li>Fontawesom - Used for some icons on the website
-  <li>Materialize - Used as the main frontend framework
-  <li>Heroku - Used to host the website
-  <li>GitHub Used to store my project source code
-  <li>W3C Markup - Used this to check my HTML for errors and typos.
-  <li>W3C CSS - Used this to check the validity of my CSS.
+  <li>[Pixabay](https://pixabay.com/) - Free online images. Used for some images on website.
+  <li>[Fontawesome](https://fontawesome.com/) - Used for some icons on the website
+  <li>[Materialize](https://materializecss.com/) - Used as the main frontend framework
+  <li>[Heroku](https://heroku.com/) - Used to host the website
+  <li>[GitHub](https://github.com/) Used to store my project source code
+  <li>[W3C](https://validator.w3.org/) Markup - Used this to check my HTML for errors and typos.
+  <li>[W3C CSS](https://jigsaw.w3.org/css-validator/) - Used this to check the validity of my CSS.
 </ul>
 
 ### Databases
 <ul>
-  <li>MongoDB - Used as the main database technology
+  <li>[MongoDB](https://www.mongodb.com/)- Used as the main database technology
 </ul>
 
 ## Credits
