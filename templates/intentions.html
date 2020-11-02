@@ -19,16 +19,16 @@
                 </div>
                 <div class="col s9">
                     {{ intention.division_name }}:
-                    <strong>{{ intention.intention_name }}</strong>-
+                    <strong>{{ intention.intention_name }}</strong> - 
                     <em>by: {{ intention.created_by }}</em>
                     {% if session.user|lower == intention.created_by|lower %}
-                        <a href="{{ url_for('delete_intention', intention_id=intention._id) }}" class="btn-small green accent-4">Done</a>
+                        <a href="{{ url_for('delete_intention', intention_id=intention._id) }}" class="btn-small red accent-4">Done</a>
                         <a href="{{ url_for('edit_intention', intention_id=intention._id) }}" class="btn-small green accent-4">Edit</a>
                     {% endif %}
                 </div>
             </div>
             <div class="collapsible-body white-text #388e3c green darken-2 text-shadow">
-                <h5>{{ intention.intention_description }}</h5>
+                <h6>{{ intention.intention_description }}</h6>
             </div>
         </li>
         {% endfor %}

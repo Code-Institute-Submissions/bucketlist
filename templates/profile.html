@@ -6,15 +6,16 @@
             <div class="card-panel  #e8f5e9 green lighten-5">
                 <p style="font-size:26px">{{ username }} what are your intentions?</p>
                 <p style="font-size:18px">When you write them down, they're more likely to happen!</p>
-                <a href="{{ url_for('add_intention') }}" class="#1b5e20 green darken-4 btn"><i class="fas fa-plus"></i> Add New Intention</a><br>
-                <img src="https://cdn.pixabay.com/photo/2016/10/25/19/58/check-1769866_1280.png" alt="checklist" width="200" height="200">
+                <a href="{{ url_for('add_intention') }}" class="#1b5e20 green darken-4 btn">
+                Add New Intention<i class="fas fa-plus-square right"></i></a><br>
+                <img src="https://cdn.pixabay.com/photo/2016/10/25/19/58/check-1769866_1280.png" alt="checklist" width="100" height="100">
 
             <!-- delete account -->
                 <p>No more intentions to set?<br>
                 You can delete your profile by clicking the button below.</p>
             <!-- Trigger modal confirmation deletion profile  -->
-                <a href="{{ url_for('delete_profile', user_id=username) }}" type="button" class="btn btn-danger red">
-                Delete Profile</button></a>
+                <a href="{{ url_for('delete_profile', user_id=username) }}" type="button" class="btn btn-danger close red">
+                Delete Profile </button><i class="fas fa-times"></i></a>
             </div>
         </div>
     </div>
