@@ -50,7 +50,6 @@ This website is for people who want to set there intantions instead of keeping t
 ### Surface
 * Font Family: standard
 * Font Color: white & black
-* Text Color: standard
 * Colors: three colors green from [Materialize](https://materializecss.com/)<br>
 ![](static/img/lighten5.JPG)
 ![](static/img/darken2.JPG)
@@ -65,8 +64,8 @@ This website is for people who want to set there intantions instead of keeping t
 * Base: green background image from [Pixabay](https://pixabay.com/)
 * Homepage/All Intentions
   * title with background image from [Pixabay](https://pixabay.com/)
-  * darken4
-  * popout = darken2
+  * darken4 collapsible element
+  * darken2 popout element
   * white text
 * Register page
   * lighten5 card with black text
@@ -87,16 +86,14 @@ This website is for people who want to set there intantions instead of keeping t
 * Manage Divisions page 
   * all white text
   * title with background image from [Pixabay](https://pixabay.com/), same as homepage/all intentions
-  * darken4 button from [Materialize](https://materializecss.com/) + icon from [Font Awesome](https://fontawesome.com/)
-  * darken4 card from [Materialize](https://materializecss.com/) + darken2 & red button
+  * darken4 button
+  * darken4 card + darken2 & red button
 * Edit Division page
   * card lighten5
   * buttons red & darken4
-  * input field from [Materialize](https://materializecss.com/)
 * Add Division page
-  * card lighten5
-  * button darken4
-  * input field from [Materialize](https://materializecss.com/) 
+  * lighten5 card
+  * darken4 button
 
 ### Mockups
 The following wireframes were created using Balsamiq to design the website layout options.<br>
