@@ -47,19 +47,52 @@ This website is for people who want to set there intantions instead of keeping t
 
 ### Surface
 * Font Family: standard
+* Font Color: white & black
 * Text Color: standard
-* Colors: two colors green from [Materialize](https://materializecss.com/)
+* Colors: three colors green from [Materialize](https://materializecss.com/)
+![](static/img/lighten5.JPG)
 ![](static/img/darken2.JPG)
 ![](static/img/darken4.JPG)
-* Header: Lightest green with white text
-* Footer: 
+* Header: 
+  * darken2
+  * white text
+* Footer
+  * bottom = darken4
+  * top = darken2 with icons from [Font Awesome](https://fontawesome.com/), white text / icons
 * Base: green background image from [Pixabay](https://pixabay.com/)
-* Homepage/All Intentions: Darkest green for all the intentions
-* Register page: very light green card, black text, darkest green button. Icons from [Font Awesome](https://fontawesome.com/)
-* Log In page: very light green card, black text, darkest green button. Icons from [Font Awesome](https://fontawesome.com/)
-* Profile page: very light green card, black text, darkest green button. Icons from [Font Awesome](https://fontawesome.com/)
-* Add Intention page: very light green card, black text, darkest green button. Icons from [Font Awesome](https://fontawesome.com/)
-* Manage Divisions page: title with background image, button from [Materialize](https://materializecss.com/) xxxxxxxxxxxxxxxxxxx
+* Homepage/All Intentions
+  * darken4
+  * popout = darken2
+  * white text
+* Register page
+  * card = lighten5 card with black text
+  * darken4 button with white text
+  * icons from [Font Awesome](https://fontawesome.com/)
+* Log In page
+  * lighten5 card with black text
+  * darken4 button with white text
+  * icons from [Font Awesome](https://fontawesome.com/)
+* Profile page 
+  * lighten5 card with black text
+   * darken4 & red button with white text
+   * icons from [Font Awesome](https://fontawesome.com/)
+* Add Intention page 
+  * lighten5 card with black text
+  * darken4 button with white text
+  * icons from [Font Awesome](https://fontawesome.com/)
+* Manage Divisions page 
+  * all white text
+  * title with background image from [Pixabay](https://pixabay.com/)
+  * darken4 button from [Materialize](https://materializecss.com/) + icon from [Font Awesome](https://fontawesome.com/)
+  * darken4 card from [Materialize](https://materializecss.com/) + darken2 & red button
+* Edit Division page
+  * card lighten5
+  * buttons red & darken 4
+  * input field from [Materialize](https://materializecss.com/)
+* Add Division page
+  * card lighten5
+  * button darken 4
+  * input field from [Materialize](https://materializecss.com/) 
 
 ### Mockups
 The following wireframes were created using Balsamiq to design the website layout options.<br>
@@ -107,6 +140,12 @@ When the Submit button is pressed the post is sent to the Mongo database and wil
 
 __Manage Divisions__<br>
 Add a New Division.
+
+__Edit Division__
+![](static/img/edit_division_screenshot.JPG)
+
+__Add Division__
+![](static/img/add_division_screenshot.JPG)
 
 ### Code structure
 
