@@ -53,8 +53,8 @@ Color Scheme
 
 ### Mockups
 The following wireframes were created using Balsamiq to design the website layout options.
-* Homepage
-![](assets/img/homepage.pdf)
+
+![Homepage](https://github.com/kimkesdev/bucketlist/blob/master/static/img/homepage.pdf?raw=true)
 * Register page
 ![](assets/img/register.pdf)
 * Login page
