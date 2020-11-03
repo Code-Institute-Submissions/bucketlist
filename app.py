@@ -81,6 +81,9 @@ def profile(username):
     if session["user"]:
         return render_template("profile.html", username=username)
 
+        existing_user = DB_USERS.find_one({'username': username})
+        users_recipes = DB_BUCKETLIST.find({'author_id': existing_user['_id']})
+
     return redirect(url_for("login"))
 
 
