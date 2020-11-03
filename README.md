@@ -1,5 +1,9 @@
 # Bucketlist
 
+Stop dreaming about your bucketlist and start living it.<br>
+Because energy flows where intention goes.<br>
+Set your bucketlist intentions today!
+
 ## Deployed Site
 [Live website](https://bucketlist-2020.herokuapp.com/.)
 ![](static/img/website.JPG)
@@ -9,26 +13,52 @@
 ### User Goals
 
 ### User Stories
-* A new user:
-* A login user:
-
+* As a new user I can look at other peoples bucketlist intentions.
+* As a registered and logged in user I can set my own bucketlist intententions.
 
 ### Strategy
+This website is for people who want to set there intantions instead of keeping them just in their head.
 
 ### Scope
 * A Landing Page that is easy to navigate.
-* A footer and navigation bar that change depending on whether the user is logged in or not.
+* A navigation bar and footer that change depending on whether the user is logged in or not.
 * A register and login form for users to either create a new account or to log in.
-* A My Account Page for users to view/edit/delete their posts, and an option to delete their account.
-* A Sign Out button that is easy to find on every page (preferably in the navigation bar).
-* A Posts page where users can see all the posts on the website.
+* A Profile Page for users to view/edit/delete their posts, and an option to delete their account. xxxxxxxxxxxxxx
+* A Sign Out button that is easy to find on every page in the navigation bar and footer.
+* An Intentions page where users can see all the bucketlist intentions on the website.
+* An admin page to manage the divisions.
 
 ### Structure
-Color Scheme
+* Color Scheme: green
+* Every page has the same header and footer. Only the menu items change, depending on if the user is logged out, logged in or it's the admin
+* intentions.html shows all added intentions from all users
+* register.html shows a materialize card with two required fields: username and password
+* login.html is the same as the register.html
+* etc etc
 
 ### Skeleton
+* Header:
+* Menu
+* Footer:
+* Homepage/All Intentions
+* Register page:
+* Log In page:
+* Profile page:
+* Add Intention page:
+* Manage Divisions page: only accessable by the admin account.
 
 ### Surface
+* Font Family:
+* Text Color:
+* Colors:
+* Header:
+* Footer
+* Homepage/All Intentions
+* Register page:
+* Log In page:
+* Profile page:
+* Add Intention page:
+* Manage Divisions page
 
 ### Mockups
 The following wireframes were created using Balsamiq to design the website layout options.<br>
