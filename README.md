@@ -52,8 +52,9 @@ Color Scheme
 ### Surface
 
 ### Mockups
-The following wireframes were created using Balsamiq to design the website layout options.
-![Homepage](.../img/homepage.jpg)
+The following wireframes were created using Balsamiq to design the website layout options.<br>
+![](static/img/homepage.jpg)
+
 
 
 ### Database Schema
