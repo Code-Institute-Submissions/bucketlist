@@ -44,33 +44,40 @@ The following wireframes were created using Balsamiq to design the website layou
 ## Features
 The webpage consists of the following features:
 
-__The navigation bar__
+__The navigation bar__<br>
+![](static/img/navbar_loggedout.JPG)
+![](static/img/navbar_loggedin.JPG)
+![](static/img/navbar_admin.JPG)
 
-__Footer__
+__Footer__<br>
+![](static/img/footer.JPG)
 
-__Registration page__
+__Registration page__<br>
 The form is set to give feedback if username is too short. There is also error checking against confirmation password mismatch and some basic password criteria. Passwords are hashed using bcrypt and then saved to the database, hashed passwords are compared on login attempt. Once registered the user ill be redirected to their profile page. There is also a link to go to the sign in page here.
+![](static/img/register_screenshot.JPG)
 
-__Login page__
+__Login page__<br>
 The login page is simple, users can enter their username and password. This is authenticated in python and feedback is given if the credentials are incorrect. For security all passwords are hashed and the hashed versions are compared. Successfully signing in to the site will direct the user to their profile page. There is also a link here to register a new user.
+![](static/img/login_screenshot.JPG)
 
-__Profile page__
+__Profile page__<br>
 The profile page is a users space to 
 This is also where you will delete your profile.
 
-__Intentions Page__
-CRUD - Read (view) all intentions
+__Intentions Page__<br>
+Read (view) all intentions
 This page shows all the posts made on the website.
 
-__Add Intention__
-CRUD - Add a New Intention.
+
+__Add Intention__<br>
+Add a New Intention.
 A simple form in the same style as all other forms on the website. When a user is logged in they can use this form to add a new intention. The following details need to be filled in on this form:
 
 When the Submit button is pressed the post is sent to the Mongo database and will show up on the main intentions page.
+![](static/img/add_intention_screenshot.JPG)
 
-__Edit Intention__
-CRUD - Update and Delete a Post
-When the submit button is pressed the updated information gets sent to the database for that post.
+__Manage Divisions__<br>
+Add a New Division.
 
 ### Code structure
 
