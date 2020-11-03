@@ -41,15 +41,17 @@ This website is for people who want to set there intantions instead of keeping t
 * Homepage/All Intentions: Collapsible Popout element from [Materialize](https://materializecss.com/)
 * Register page: Card Panel and Text Input fields from [Materialize](https://materializecss.com/)
 * Log In page: Card Panel and Text Input fields from [Materialize](https://materializecss.com/)
-* Profile page: Card Panel from [Materialize](https://materializecss.com/). Only accessable with registered and logged in account
-* Add Intention page: Card Panel, Text Input fields and Collabsable Select field from [Materialize](https://materializecss.com/). Only accessable with registered and logged in account. 
-* Manage Divisions page: Only accessable by the admin account xxxxxxxxxxxxxx
+* Profile page: Card Panel from [Materialize](https://materializecss.com/). Only for registered/logged in users
+* Add Intention page: Card Panel, Text Input fields and Collabsable Select field from [Materialize](https://materializecss.com/). Only for registered/logged in users
+* Manage Divisions page: Card Panel and buttons from [Materialize](https://materializecss.com/). Only for admin account
+* Edit Division page: Card Panel, Text Input field from [Materialize](https://materializecss.com/). Only for admin account
+* Add Division page: input field from [Materialize](https://materializecss.com/). Only for admin account
 
 ### Surface
 * Font Family: standard
 * Font Color: white & black
 * Text Color: standard
-* Colors: three colors green from [Materialize](https://materializecss.com/)
+* Colors: three colors green from [Materialize](https://materializecss.com/)<br>
 ![](static/img/lighten5.JPG)
 ![](static/img/darken2.JPG)
 ![](static/img/darken4.JPG)
@@ -58,14 +60,16 @@ This website is for people who want to set there intantions instead of keeping t
   * white text
 * Footer
   * bottom = darken4
-  * top = darken2 with icons from [Font Awesome](https://fontawesome.com/), white text / icons
+  * top = darken2 with icons from [Font Awesome](https://fontawesome.com/)
+  * white text / icons
 * Base: green background image from [Pixabay](https://pixabay.com/)
 * Homepage/All Intentions
+  * title with background image from [Pixabay](https://pixabay.com/)
   * darken4
   * popout = darken2
   * white text
 * Register page
-  * card = lighten5 card with black text
+  * lighten5 card with black text
   * darken4 button with white text
   * icons from [Font Awesome](https://fontawesome.com/)
 * Log In page
@@ -82,16 +86,16 @@ This website is for people who want to set there intantions instead of keeping t
   * icons from [Font Awesome](https://fontawesome.com/)
 * Manage Divisions page 
   * all white text
-  * title with background image from [Pixabay](https://pixabay.com/)
+  * title with background image from [Pixabay](https://pixabay.com/), same as homepage/all intentions
   * darken4 button from [Materialize](https://materializecss.com/) + icon from [Font Awesome](https://fontawesome.com/)
   * darken4 card from [Materialize](https://materializecss.com/) + darken2 & red button
 * Edit Division page
   * card lighten5
-  * buttons red & darken 4
+  * buttons red & darken4
   * input field from [Materialize](https://materializecss.com/)
 * Add Division page
   * card lighten5
-  * button darken 4
+  * button darken4
   * input field from [Materialize](https://materializecss.com/) 
 
 ### Mockups
