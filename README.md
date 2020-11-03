@@ -56,8 +56,8 @@ The following wireframes were created using Balsamiq to design the website layou
 ![](static/img/homepage.JPG)
 ![](static/img/register.JPG)
 ![](static/img/login.JPG)
-![](static/img/profile.JPG)
-![](static/img/new_intention.JPG)
+![](static/img/profile.JPG)xxxxxx
+![](static/img/add_intention.JPG)
 ![](static/img/manage_divisions.JPG)
 
 ### Database Schema
