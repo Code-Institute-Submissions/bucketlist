@@ -28,7 +28,6 @@ def get_intentions():
 @app.route("/register", methods=["GET", "POST"])
 def register():
     if request.method == "POST":
-        # check if username already exists in db
         existing_user = mongo.db.users.find_one(
             {"username": request.form.get("username").lower()})
 
@@ -42,7 +41,6 @@ def register():
         }
         mongo.db.users.insert_one(register)
 
-        # put the new user into 'session' cookie
         session["user"] = request.form.get("username").lower()
         flash("Registration Successful!")
         return redirect(url_for("profile", username=session["user"]))
@@ -53,12 +51,10 @@ def register():
 @app.route("/login", methods=["GET", "POST"])
 def login():
     if request.method == "POST":
-        # check if username exists in db
         existing_user = mongo.db.users.find_one(
             {"username": request.form.get("username").lower()})
 
         if existing_user:
-            # ensure hashed password matches user input
             if check_password_hash(
                     existing_user["password"], request.form.get("password")):
                         session["user"] = request.form.get("username").lower()
@@ -67,12 +63,10 @@ def login():
                         return redirect(url_for(
                             "profile", username=session["user"]))
             else:
-                # invalid password match
                 flash("Incorrect Username and/or Password")
                 return redirect(url_for("login"))
 
         else:
-            # username doesn't exist
             flash("Incorrect Username and/or Password")
             return redirect(url_for("login"))
 
@@ -81,7 +75,6 @@ def login():
 
 @app.route("/profile/<username>", methods=["GET", "POST"])
 def profile(username):
-    # grab the session user's username from db
     username = mongo.db.users.find_one(
         {"username": session["user"]})["username"]
 
@@ -93,7 +86,6 @@ def profile(username):
 
 @app.route("/logout")
 def logout():
-    # remove user from session cookie
     flash("You have been logged out")
     session.pop("user")
     return redirect(url_for("login"))
@@ -180,13 +172,9 @@ def delete_division(division_id):
     return redirect(url_for("get_divisions"))
 
 
-# Delete profile
-
 @app.route("/delete-profile/<user_id>", methods=["GET", "POST"])
 def delete_profile(user_id):
-    # Take the session user username and removes from database
     mongo.db.users.remove({"username": session["user"]})
-    # Clears the cache after the username has been deleted
     session.clear()
     flash("Your profile has been deleted.")
     return redirect(url_for("get_intentions"))
