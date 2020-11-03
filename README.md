@@ -10,8 +10,6 @@ Set your bucketlist intentions today!
 
 ## UX 
 
-### User Goals
-
 ### User Stories
 * As a new user I can look at other peoples bucketlist intentions.
 * As a registered and logged in user I can set my own bucketlist intententions.
@@ -98,11 +96,9 @@ __Intentions Page__<br>
 Read (view) all intentions
 This page shows all the posts made on the website.
 
-
 __Add Intention__<br>
 Add a New Intention.
 A simple form in the same style as all other forms on the website. When a user is logged in they can use this form to add a new intention. The following details need to be filled in on this form:
-
 When the Submit button is pressed the post is sent to the Mongo database and will show up on the main intentions page.
 ![](static/img/add_intention_screenshot.JPG)
 
@@ -116,11 +112,11 @@ Add a New Division.
 ## Technologies
 
 ### Languages
-* Python3 - Used for backend data manipulation 
-* PyMongo - Used to communicate with the mongoDB database 
 * [HTML5](https://en.wikipedia.org/wiki/HTML5) - Used as the main language for the templates 
 * [CSS](https://en.wikipedia.org/wiki/Cascading_Style_Sheets) - Used for styling the webpage
 * [JavaScript](https://en.wikipedia.org/wiki/JavaScript) - Used for some front end functionality
+* Python3 - Used for backend data manipulation 
+* PyMongo - Used to communicate with the mongoDB database 
 
 ### Libraries/Frameworks/Tools
 * [Github](https://github.com/) - Used for version control 
@@ -130,20 +126,31 @@ Add a New Division.
 * [Materialize](https://materializecss.com/) - Used as the main frontend framework 
 * [Heroku](https://heroku.com/) - Used to host the website 
 * [GitHub](https://github.com/) Used to store my project source code 
-* [W3C](https://validator.w3.org/) Markup - Used this to check my HTML for errors and typos
-* [W3C CSS](https://jigsaw.w3.org/css-validator/) - Used this to check the validity of my CSS
 
 ### Databases
 * [MongoDB](https://www.mongodb.com/)- Used as the main database technology
 
+### Testing
+* [W3C Markup](https://validator.w3.org/) - Used this to check my HTML for errors and typos
+* [W3C CSS](https://jigsaw.w3.org/css-validator/) - Used this to check the validity of my CSS
+* Google Chrome Developer Tools for testing different divice sizes
+* [Responsinator](https://www.responsinator.com/) - for testing different divice sizes
+
+## Deployment
+
+### Deployment left to be implemented
+
+### GitHub repository....
+
 ## Credits
 
 ### Content
-The content is made up and written by me.
+The content is made up and written by me. The intentions are added by diffirent users.
 
 ### Media
 The photos used in this website were obtained from [Pixabay](https://pixabay.com/).
 
 ### Acknowledgements
-* [Code Institute course](https://codeinstitute.net/)
+* [Code Institute course](https://codeinstitute.net/) course & Student Care
 * [YouTube](https://www.youtube.com/)
+* [Slack](https://slack.com/) community
