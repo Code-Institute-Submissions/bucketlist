@@ -129,16 +129,20 @@ Footer for the admin user:<br>
 ![](static/img/footer_admin.JPG)
 
 __Registration page__<br>
-The form is set to give feedback if username is too short. There is also error checking against confirmation password mismatch and some basic password criteria. Passwords are hashed using bcrypt and then saved to the database, hashed passwords are compared on login attempt. Once registered the user will be redirected to their profile page. There is also a link to go to the log in page here.
+The form is set to give feedback if username is too short. There is also error checking against confirmation password mismatch and some basic password criteria. Passwords are hashed using bcrypt and then saved to the database, hashed passwords are compared on login attempt. Once registered the user will be redirected to their profile page. There is also a link to go to the log in page here.<br>
+The Registration page is a required input field. <br>
+The username requires a min length of 5 and a max length of 15. <br>
+The password requires a min length of 5 and a max length of 15 and a pattern of "a-z,A-Z,0-9,5-15".
 ![](static/img/register_screenshot.JPG)
 
 __Login page__<br>
 The login page is simple, users can enter their username and password. This is authenticated in python and feedback is given if the credentials are incorrect. For security all passwords are hashed and the hashed versions are compared. Successfully signing in to the site will direct the user to their profile page. There is also a link here to register a new user.
+The Log In page is a required input field, with the same requirements as the Registration Page.
 ![](static/img/login_screenshot.JPG)
 
 __Profile page__<br>
-The profile page is a users space to 
-This is also where you will delete your profile.
+The profile page is a users space to xxxxxxxxxxxxxx
+This is also where you can delete your profile.
 
 __Intentions Page__<br>
 Read (view) all intentions.
@@ -154,6 +158,9 @@ The following details need to be filled in on this form:
  <li>Intention Name
  <li>Intention Description
 </ol>
+Intention Division, Intention Name and Intention Description are required fields.
+Intention Name is a required input field with a min length of 5 and a max length of 50.
+Intention Description requires is a required textarea with a min length of 5 and a max length of 200.
 When the Submit button is pressed, the post is sent to the Mongo database and will show up on the main Intentions Page.
 ![](static/img/add_intention_screenshot.JPG)
 
