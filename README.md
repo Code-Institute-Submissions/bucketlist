@@ -131,14 +131,10 @@ Footer for the admin user:<br>
 __Registration page__<br>
 The form is set to give feedback if username is too short. There is also error checking against confirmation password mismatch and some basic password criteria. Passwords are hashed using bcrypt and then saved to the database, hashed passwords are compared on login attempt. Once registered the user will be redirected to their profile page. There is also a link to go to the log in page here.
 ![](static/img/register_screenshot.JPG)
-When there is an error:
-![](static/img/register_error.JPG)
 
 __Login page__<br>
 The login page is simple, users can enter their username and password. This is authenticated in python and feedback is given if the credentials are incorrect. For security all passwords are hashed and the hashed versions are compared. Successfully signing in to the site will direct the user to their profile page. There is also a link here to register a new user.
 ![](static/img/login_screenshot.JPG)
-When there is an error:
-![](static/img/login_error.JPG)
 
 __Profile page__<br>
 The profile page is a users space to 
@@ -160,8 +156,6 @@ The following details need to be filled in on this form:
 </ol>
 When the Submit button is pressed, the post is sent to the Mongo database and will show up on the main Intentions Page.
 ![](static/img/add_intention_screenshot.JPG)
-When there is an error:
-![](static/img/add_intention_error.JPG)
 
 __Manage Divisions__<br>
 Overview of all the Divisions. 
@@ -209,6 +203,20 @@ Add a New Division. Here you van add a New Division. This will be sent to the Mo
 * [W3C CSS](https://jigsaw.w3.org/css-validator/) - Used this to check the validity of my CSS
 * Google Chrome Developer Tools for testing different divice sizes
 * [Responsinator](https://www.responsinator.com/) - for testing different divice sizes
+
+__Registration page__<br>
+The username and password field are required fields. <br>
+When there is an error:
+![](static/img/register_error.JPG)
+
+__Login page__<br>
+The username and password field are required fields. <br>
+When there is an error:
+![](static/img/login_error.JPG)
+
+__Add Intention__<br>
+When there is an error:
+![](static/img/add_intention_error.JPG)
 
 ## Deployment
 
