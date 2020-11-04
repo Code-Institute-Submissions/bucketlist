@@ -136,7 +136,7 @@ The password requires a min length of 5 and a max length of 15 and a pattern of 
 ![](static/img/register_screenshot.JPG)
 
 __Login page__<br>
-The login page is simple, users can enter their username and password. This is authenticated in python and feedback is given if the credentials are incorrect. For security all passwords are hashed and the hashed versions are compared. Successfully signing in to the site will direct the user to their profile page. There is also a link here to register a new user.
+The login page is simple, users can enter their username and password. This is authenticated in python and feedback is given if the credentials are incorrect. For security all passwords are hashed and the hashed versions are compared. Successfully signing in to the site will direct the user to their profile page. There is also a link here to register a new user. <br>
 The Log In page is a required input field, with the same requirements as the Registration Page.
 ![](static/img/login_screenshot.JPG)
 
@@ -145,12 +145,12 @@ The profile page is a users space to xxxxxxxxxxxxxx
 This is also where you can delete your profile.
 
 __Intentions Page__<br>
-Read (view) all intentions.
+Read (view) all intentions. <br>
 This page shows all the posts made on the website.
 ![](static/img/all_intentions.JPG)
 
 __Add Intention__<br>
-Add a New Intention.
+Add a New Intention. <br>
 A simple form in the same style as all other forms on the website. When a user is logged in they can use this form to add a new intention.<br> 
 The following details need to be filled in on this form:
 <ol>
@@ -158,10 +158,11 @@ The following details need to be filled in on this form:
  <li>Intention Name
  <li>Intention Description
 </ol>
-Intention Division, Intention Name and Intention Description are required fields.
-Intention Name is a required input field with a min length of 5 and a max length of 50.
-Intention Description requires is a required textarea with a min length of 5 and a max length of 200.
-When the Submit button is pressed, the post is sent to the Mongo database and will show up on the main Intentions Page.
+Intention Division, Intention Name and Intention Description are required fields. <br>
+Intention Name is a required input field with a min length of 5 and a max length of 50. <br>
+Intention Description requires is a required textarea with a min length of 5 and a max length of 200. <br>
+When the Submit button is pressed, the post is sent to the Mongo database and will show up on the main Intentions Page. <br>
+
 ![](static/img/add_intention_screenshot.JPG)
 
 __Manage Divisions__<br>
@@ -181,7 +182,7 @@ Add a New Division. Here you van add a New Division. This will be sent to the Mo
 ### Features Left to Implement
 <ol>
  <li>A button to share your Intention on Social Media.
- <li>
+ <li>When there a hounderds of Intentions added, a Pagination will be needed.
 </ol>
 
 ## Technologies
