@@ -147,6 +147,7 @@ This is also where you will delete your profile.
 __Intentions Page__<br>
 Read (view) all intentions
 This page shows all the posts made on the website.
+![](static/img/all_intentions.JPG)
 
 __Add Intention__<br>
 Add a New Intention.
@@ -165,11 +166,11 @@ __Manage Divisions__<br>
 Overview of all the Divisions. 
 ![](static/img/manage_division_screenshot.JPG)
 
-__Edit Division__
+__Edit Division__<br>
 Edit a Division.
 ![](static/img/edit_division_screenshot.JPG)
 
-__Add Division__
+__Add Division__<br>
 Add a New Division.
 ![](static/img/add_division_screenshot.JPG)
 
