@@ -178,6 +178,10 @@ Add a New Division. Here you van add a New Division. This will be sent to the Mo
 ### Code structure
 
 ### Features Left to Implement
+<ol>
+ <li>A button to share your Intention on Social Media.
+ <li>
+</ol>
 
 ## Technologies
 
