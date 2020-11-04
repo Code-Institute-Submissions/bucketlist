@@ -130,14 +130,10 @@ Footer for the admin user:<br>
 
 __Registration page__<br>
 The form is set to give feedback if username is too short. There is also error checking against confirmation password mismatch and some basic password criteria. Passwords are hashed using bcrypt and then saved to the database, hashed passwords are compared on login attempt. Once registered the user will be redirected to their profile page. There is also a link to go to the log in page here.<br>
-The Registration page is a required input field. <br>
-The username requires a min length of 5 and a max length of 15. <br>
-The password requires a min length of 5 and a max length of 15 and a pattern of "a-z,A-Z,0-9,5-15".
 ![](static/img/register_screenshot.JPG)
 
 __Login page__<br>
 The login page is simple, users can enter their username and password. This is authenticated in python and feedback is given if the credentials are incorrect. For security all passwords are hashed and the hashed versions are compared. Successfully signing in to the site will direct the user to their profile page. There is also a link here to register a new user. <br>
-The Log In page is a required input field, with the same requirements as the Registration Page.
 ![](static/img/login_screenshot.JPG)
 
 __Profile page__<br>
@@ -158,9 +154,6 @@ The following details need to be filled in on this form:
  <li>Intention Name
  <li>Intention Description
 </ol>
-Intention Division, Intention Name and Intention Description are required fields. <br>
-Intention Name is a required input field with a min length of 5 and a max length of 50. <br>
-Intention Description requires is a required textarea with a min length of 5 and a max length of 200. <br>
 When the Submit button is pressed, the post is sent to the Mongo database and will show up on the main Intentions Page. <br>
 
 ![](static/img/add_intention_screenshot.JPG)
@@ -213,16 +206,21 @@ Add a New Division. Here you van add a New Division. This will be sent to the Mo
 * [Responsinator](https://www.responsinator.com/) - for testing different divice sizes
 
 __Registration page__<br>
-The username and password field are required fields. <br>
+The Registration page is a required input field. <br>
+The username requires a min length of 5 and a max length of 15. <br>
+The password requires a min length of 5 and a max length of 15 and a pattern of "a-z,A-Z,0-9,5-15". <br>
 When there is an error:
 ![](static/img/register_error.JPG)
 
 __Login page__<br>
-The username and password field are required fields. <br>
+The Log In page is a required input field, with the same requirements as the Registration Page.
 When there is an error:
 ![](static/img/login_error.JPG)
 
 __Add Intention__<br>
+Intention Division, Intention Name and Intention Description are required fields. <br>
+Intention Name is a required input field with a min length of 5 and a max length of 50. <br>
+Intention Description requires is a required textarea with a min length of 5 and a max length of 200. <br>
 When there is an error:
 ![](static/img/add_intention_error.JPG)
 
