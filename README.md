@@ -212,9 +212,7 @@ Add a New Division. Here you van add a New Division. This will be sent to the Mo
 
 ## Deployment
 
-### Deployment left to be implemented
-
-### GitHub repository....
+### GitHub / Heroku repository....
 
 ## Credits
 
