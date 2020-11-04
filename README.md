@@ -21,16 +21,16 @@ This website is for people who want to set there intantions instead of keeping t
 * A Landing Page that is easy to navigate
 * A navigation bar and footer that change depending on whether the user is logged in or not
 * A register and login form for users to either create a new account or to log in
-* A Profile Page for users to view/edit/delete their posts, and an option to delete their account xxxxxxxxxxxxxx
+* A Profile Page for users to add an intention and an option to delete their account
 * A Sign Out button that is easy to find on every page in the navigation bar and footer
 * An Intentions page where users can see all the bucketlist intentions on the website
-* An admin page to manage the divisions.
+* An admin page to manage the divisions
 
 ### Structure
 * Color Scheme: green
 * Every page has the same header and footer. Only the menu items change, depending on if the user is logged out, logged in or it's the admin
 * intentions.html shows all added intentions from all users
-* register.html shows a materialize card with two required fields: username and password
+* register.html shows two required fields: username and password
 * login.html is the same as the register.html
 * etc etc
 
@@ -38,6 +38,7 @@ This website is for people who want to set there intantions instead of keeping t
 * Header: Right Aligned Links from [Materialize](https://materializecss.com/)
 * Menu: with Mobile Collapse Button on medium and small divices from [Materialize](https://materializecss.com/)
 * Footer: from [Materialize](https://materializecss.com/)
+* Base: with header, footer and background image
 * Homepage/All Intentions: Collapsible Popout element from [Materialize](https://materializecss.com/)
 * Register page: Card Panel and Text Input fields from [Materialize](https://materializecss.com/)
 * Log In page: Card Panel and Text Input fields from [Materialize](https://materializecss.com/)
