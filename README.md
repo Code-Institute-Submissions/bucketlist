@@ -111,9 +111,14 @@ The following wireframes were created using Balsamiq to design the website layou
 The webpage consists of the following features:
 
 __The navigation bar__<br>
+Navbar for the logged out user:<br>
 ![](static/img/navbar_loggedout.JPG)
+Navbar for the logged in user:<br>
 ![](static/img/navbar_loggedin.JPG)
+Navbar for the admin user:<br>
 ![](static/img/navbar_admin.JPG)
+Navbar for the mobile device user:<br>
+![](static/img/navbar_mobile.JPG)
 
 __Footer__<br>
 ![](static/img/footer.JPG)
