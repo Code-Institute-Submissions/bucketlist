@@ -151,21 +151,26 @@ This page shows all the posts made on the website.
 __Add Intention__<br>
 Add a New Intention.
 A simple form in the same style as all other forms on the website. When a user is logged in they can use this form to add a new intention. The following details need to be filled in on this form:
-* Intention Division
-* Intention Name
-* Intention Description
-When the Submit button is pressed, the post is sent to the Mongo database and will show up on the main intentions page.
+<ol>
+ <li>Intention Division
+ <li>Intention Name
+ <li>Intention Description
+</ol>
+When the Submit button is pressed, the post is sent to the Mongo database and will show up on the main Intentions Page.
 ![](static/img/add_intention_screenshot.JPG)
 When there is an error:
 ![](static/img/add_intention_error.JPG)
 
 __Manage Divisions__<br>
-Add a New Division.
+Overview of all the Divisions. 
+![](static/img/manage_division_screenshot.JPG)
 
 __Edit Division__
+Edit a Division.
 ![](static/img/edit_division_screenshot.JPG)
 
 __Add Division__
+Add a New Division.
 ![](static/img/add_division_screenshot.JPG)
 
 ### Code structure
