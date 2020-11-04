@@ -121,7 +121,12 @@ Navbar for the mobile device user:<br>
 ![](static/img/navbar_mobile.JPG)
 
 __Footer__<br>
+Footer for the logged out user:<br>
 ![](static/img/footer.JPG)
+Footer for the logged in user:<br>
+![](static/img/footer_loggedin.JPG)
+Footer for the admin user:<br>
+![](static/img/footer_admin.JPG)
 
 __Registration page__<br>
 The form is set to give feedback if username is too short. There is also error checking against confirmation password mismatch and some basic password criteria. Passwords are hashed using bcrypt and then saved to the database, hashed passwords are compared on login attempt. Once registered the user ill be redirected to their profile page. There is also a link to go to the sign in page here.
