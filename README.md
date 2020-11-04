@@ -145,13 +145,14 @@ The profile page is a users space to
 This is also where you will delete your profile.
 
 __Intentions Page__<br>
-Read (view) all intentions
+Read (view) all intentions.
 This page shows all the posts made on the website.
 ![](static/img/all_intentions.JPG)
 
 __Add Intention__<br>
 Add a New Intention.
-A simple form in the same style as all other forms on the website. When a user is logged in they can use this form to add a new intention. The following details need to be filled in on this form:
+A simple form in the same style as all other forms on the website. When a user is logged in they can use this form to add a new intention.<br> 
+The following details need to be filled in on this form:
 <ol>
  <li>Intention Division
  <li>Intention Name
@@ -167,11 +168,11 @@ Overview of all the Divisions.
 ![](static/img/manage_division_screenshot.JPG)
 
 __Edit Division__<br>
-Edit a Division.
+Edit a Division. Here you can change the name of a Division. This will be sent to the Mongo database and will be selectable when you want to add a New Intention.
 ![](static/img/edit_division_screenshot.JPG)
 
 __Add Division__<br>
-Add a New Division.
+Add a New Division. Here you van add a New Division. This will be sent to the Mongo database and will be selectable when you want to add a New Intention.
 ![](static/img/add_division_screenshot.JPG)
 
 ### Code structure
