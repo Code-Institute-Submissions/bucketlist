@@ -180,7 +180,7 @@ Add a New Division. Here you van add a New Division. This will be sent to the Mo
 
 ### Code structure
 
-![](static/img/code_structure.JPG | width=48)
+![](static/img/code_structure.JPG){:height="24px" width="48px"}
 
 Webpage connections:
 <br>
