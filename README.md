@@ -155,8 +155,12 @@ The following details need to be filled in on this form:
  <li>Intention Description
 </ol>
 When the Submit button is pressed, the post is sent to the Mongo database and will show up on the main Intentions Page. <br>
-
 ![](static/img/add_intention_screenshot.JPG)
+
+__Edit Intention__<br>
+Edit a Intention.<br>
+The same form as Add Intention, only then filled in with the information when added.
+![](static/img/edit_intention_screenshot.JPG)
 
 __Manage Divisions__<br>
 Overview of all the Divisions. 
