@@ -77,9 +77,13 @@ This website is for people who want to set there intantions instead of keeping t
   * darken4 button with white text
   * icons from [Font Awesome](https://fontawesome.com/)
 * Profile page 
-  * lighten5 card with black text
-   * darken4 & red button with white text
-   * icons from [Font Awesome](https://fontawesome.com/)
+  * card 1:
+   * lighten5 card with black text
+   * darken4 button with white text
+  * card 2:
+   * lighten5 card with black text
+   * red button with white text
+  * icons from [Font Awesome](https://fontawesome.com/)
 * Add Intention page 
   * lighten5 card with black text
   * darken4 button with white text
@@ -137,8 +141,9 @@ The login page is simple, users can enter their username and password. This is a
 ![](static/img/login_screenshot.JPG)
 
 __Profile page__<br>
-The profile page is a users space to xxxxxxxxxxxxxx
-This is also where you can delete your profile.
+The profile page shows the username and an extra button to add a new Intention.
+This is also where the profile can be deleted.
+![](static/img/profile_screenshot.JPG)
 
 __Intentions Page__<br>
 Read (view) all intentions. <br>
@@ -155,10 +160,11 @@ The following details need to be filled in on this form:
  <li>Intention Description
 </ol>
 When the Submit button is pressed, the post is sent to the Mongo database and will show up on the main Intentions Page. <br>
+
 ![](static/img/add_intention_screenshot.JPG)
 
 __Edit Intention__<br>
-Edit a Intention.<br>
+Here the added Intention can be edited.<br>
 The same form as Add Intention, only then filled in with the information when added.
 ![](static/img/edit_intention_screenshot.JPG)
 
