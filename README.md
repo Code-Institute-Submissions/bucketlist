@@ -107,7 +107,7 @@ The following wireframes were created using Balsamiq to design the website layou
 
 ### Database Schema
 
-xxxxxxxxxxxxxxxxxxxxxxxx !!!!!!!!!!!!!!!!!!!!!!!!
+![](static/img/database_structure.JPG)
 
 ## Features
 The webpage consists of the following features:
