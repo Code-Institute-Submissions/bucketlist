@@ -137,7 +137,7 @@ The login page is simple, users can enter their username and password. This is a
 ![](static/img/login_screenshot.JPG)
 
 __Profile page__<br>
-Card 1:Shows the username and an extra button to add a new Intention.
+Card 1: Shows the username and an extra button to add a new Intention. <br>
 Card 2: This is also where the profile can be deleted.
 ![](static/img/profile_screenshot.JPG)
 
@@ -178,10 +178,19 @@ Add a New Division. Here you van add a New Division. This will be sent to the Mo
 
 ### Code structure
 
+Database Schema:
+<br>
+Git:
+![](static/img/code_structure.JPG)
+Webpage connections:
+<br>
+
 ### Features Left to Implement
 <ol>
- <li>A button to share your Intention on Social Media.
- <li>When there a hounderds of Intentions added, a Pagination will be needed.
+ <li>A button to share your Intention on Social Media
+ <li>When there a hounderds of Intentions added, a Pagination will be needed
+ <li>All Intentions sorted by due_date
+ <li>Show all added Intentions by user on it's Profile Oage
 </ol>
 
 ## Technologies
