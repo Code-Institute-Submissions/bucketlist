@@ -81,9 +81,6 @@ def profile(username):
     if session["user"]:
         return render_template("profile.html", username=username)
 
-        existing_user = DB_USERS.find_one({'username': username})
-        users_recipes = DB_BUCKETLIST.find({'author_id': existing_user['_id']})
-
     return redirect(url_for("login"))
 
 
@@ -101,6 +98,7 @@ def add_intention():
             "division_name": request.form.get("division_name"),
             "intention_name": request.form.get("intention_name"),
             "intention_description": request.form.get("intention_description"),
+            "due_date": request.form.get("due_date"),
             "created_by": session["user"]
         }
         mongo.db.intentions.insert_one(intention)
@@ -118,6 +116,7 @@ def edit_intention(intention_id):
             "division_name": request.form.get("division_name"),
             "intention_name": request.form.get("intention_name"),
             "intention_description": request.form.get("intention_description"),
+            "due_date": request.form.get("due_date"),
             "created_by": session["user"]
         }
         mongo.db.intentions.update({"_id": ObjectId(intention_id)}, submit)

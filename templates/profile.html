@@ -8,49 +8,17 @@
                 <p style="font-size:18px">When you write them down, they're more likely to happen!</p>
                 <a href="{{ url_for('add_intention') }}" class="#1b5e20 green darken-4 btn">
                 Add New Intention<i class="fas fa-plus-square right"></i></a><br>
-                <img src="https://cdn.pixabay.com/photo/2016/10/25/19/58/check-1769866_1280.png" alt="checklist" width="100" height="100">
-
+            </div>
+            <div class="card-panel  #e8f5e9 green lighten-5">
             <!-- delete account -->
-                <p>No more intentions to set?<br>
-                You can delete your profile by clicking the button below.</p>
+                <p style="font-size:26px">No more intentions to set?</p>
+                <p>You can delete your profile by clicking the button below.</p>
             <!-- Trigger modal confirmation deletion profile  -->
                 <a href="{{ url_for('delete_profile', user_id=username) }}" type="button" class="btn btn-danger close red">
                 Delete Profile <i class="fas fa-times-circle right"></i></a><br><br>
 
-            <!-- user intentions -->
-                {% if intentions|length > 0 %}
-                <ul class="collapsible popout">
-                    {% for intention in intentions %}
-                        {% if session.user|lower == intention.created_by|lower %}
-                            <li>
-                                <div class="collapsible-header white-text #1b5e20 green darken-4 text-shadow">
-                                    <div class="col s3">
-                                        <i class="fas fa-caret-down"></i>
-                                    </div>
-                                    <div class="col s9">
-                                    {{ intention.division_name }}:
-                                    <strong>{{ intention.intention_name }}</strong> - 
-                                    <em>by: {{ intention.created_by }}</em>
-                                    <a href="{{ url_for('delete_intention', intention_id=intention._id) }}" class="btn-small red accent-4">Done</a>
-                                    <a href="{{ url_for('edit_intention', intention_id=intention._id) }}" class="btn-small green accent-4">Edit</a>
-                                    </div>
-                                </div>
-                                <div class="collapsible-body white-text #388e3c green darken-2 text-shadow">
-                                    <h6>{{ intention.intention_description }}</h6>
-                                </div>
-                            </li>
-                        {% endif %}
-                    {% endfor %}
-                </ul>
-                {% else %}
-                    <h3 class="red-text text-darken-4 center-align">Your didn't set any intentions yet.               
-                {% endif %}
-
             </div>
         </div>
     </div>
-
-
-
 
 {% endblock %}
