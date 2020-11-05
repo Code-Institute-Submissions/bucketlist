@@ -42,7 +42,7 @@ This website is for people who want to set there intantions instead of keeping t
 * Homepage/All Intentions: Collapsible Popout element from [Materialize](https://materializecss.com/)
 * Register page: Card Panel and Text Input fields from [Materialize](https://materializecss.com/)
 * Log In page: Card Panel and Text Input fields from [Materialize](https://materializecss.com/)
-* Profile page: Card Panel from [Materialize](https://materializecss.com/). Only for registered/logged in users
+* Profile page: 2 Card Panels from [Materialize](https://materializecss.com/). Only for registered/logged in users
 * Add Intention page: Card Panel, Text Input fields and Collabsable Select field from [Materialize](https://materializecss.com/). Only for registered/logged in users
 * Manage Divisions page: Card Panel and buttons from [Materialize](https://materializecss.com/). Only for admin account
 * Edit Division page: Card Panel, Text Input field from [Materialize](https://materializecss.com/). Only for admin account
@@ -77,12 +77,12 @@ This website is for people who want to set there intantions instead of keeping t
   * darken4 button with white text
   * icons from [Font Awesome](https://fontawesome.com/)
 * Profile page 
-  * card 1:
-   * lighten5 card with black text
-   * darken4 button with white text
+  * card 1: 
+  - lighten5 card with black text
+  - darken4 button with white text
   * card 2:
-   * lighten5 card with black text
-   * red button with white text
+  - lighten5 card with black text
+  - red button with white text
   * icons from [Font Awesome](https://fontawesome.com/)
 * Add Intention page 
   * lighten5 card with black text
@@ -231,6 +231,7 @@ __Add Intention__<br>
 Intention Division, Intention Name and Intention Description are required fields. <br>
 Intention Name is a required input field with a min length of 5 and a max length of 50. <br>
 Intention Description requires is a required textarea with a min length of 5 and a max length of 200. <br>
+Due Date needs to be filled in. <br>
 When there is an error:
 ![](static/img/add_intention_error.JPG)
 
