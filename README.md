@@ -107,6 +107,8 @@ The following wireframes were created using Balsamiq to design the website layou
 
 ### Database Schema
 
+xxxxxxxxxxxxxxxxxxxxxxxx !!!!!!!!!!!!!!!!!!!!!!!!
+
 ## Features
 The webpage consists of the following features:
 
@@ -178,10 +180,8 @@ Add a New Division. Here you van add a New Division. This will be sent to the Mo
 
 ### Code structure
 
-Database Schema:
-<br>
-Git:
-![](static/img/code_structure.JPG)
+![](static/img/code_structure.JPG | width=48)
+
 Webpage connections:
 <br>
 
