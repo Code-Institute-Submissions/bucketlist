@@ -77,12 +77,8 @@ This website is for people who want to set there intantions instead of keeping t
   * darken4 button with white text
   * icons from [Font Awesome](https://fontawesome.com/)
 * Profile page 
-  * card 1: 
-  - lighten5 card with black text
-  - darken4 button with white text
-  * card 2:
-  - lighten5 card with black text
-  - red button with white text
+  * lighten5 cards with black text
+  * darken4 & red button with white text
   * icons from [Font Awesome](https://fontawesome.com/)
 * Add Intention page 
   * lighten5 card with black text
@@ -141,8 +137,8 @@ The login page is simple, users can enter their username and password. This is a
 ![](static/img/login_screenshot.JPG)
 
 __Profile page__<br>
-The profile page shows the username and an extra button to add a new Intention.
-This is also where the profile can be deleted.
+Card 1:Shows the username and an extra button to add a new Intention.
+Card 2: This is also where the profile can be deleted.
 ![](static/img/profile_screenshot.JPG)
 
 __Intentions Page__<br>
