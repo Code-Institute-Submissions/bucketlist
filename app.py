@@ -21,7 +21,7 @@ mongo = PyMongo(app)
 @app.route("/")
 @app.route("/get_intentions")
 def get_intentions():
-    intentions = list(mongo.db.intentions.find())
+    intentions = list(mongo.db.intentions.find().sort("created_by"))
     return render_template("intentions.html", intentions=intentions)
 
 
