@@ -12,27 +12,32 @@ Set your bucketlist intentions today!
 
 ### User Stories
 * As a new user I can look at other peoples bucketlist intentions
-* As a registered and logged in user I can set my own bucketlist intententions
+* As a registered and logged in user I can set my own bucketlist intentention
 
 ### Strategy
 This website is for people who want to set there intantions instead of keeping them just in their head.
 
 ### Scope
-* A Landing Page that is easy to navigate
+* A Base Page with the header, footer and background image for all the other pages
+* A Landing Page where visitors can see all the Intentions set by it's users
 * A navigation bar and footer that change depending on whether the user is logged in or not
-* A register and login form for users to either create a new account or to log in
-* A Profile Page for users to add an intention and an option to delete their account
+* A Register page for new users to create a profile
+* A Login Page for users to Login
+* A Profile Page for users to add a new intention and an option to delete their profile
 * A Sign Out button that is easy to find on every page in the navigation bar and footer
-* An Intentions page where users can see all the bucketlist intentions on the website
-* An admin page to manage the divisions
+* An Add Intention Page to Add a new Intention
+* A Edit Intention Page to Edit a existing Intention
+* A Divisions Page to see all the existing Divisions. Only for the admin user 
+* An Add Division Page to Add a new Division. Only for the admin user 
+* A Edit Divisions Page to Edit a excisting Division. Only for the admin user 
 
 ### Structure
 * Color Scheme: green
 * Every page has the same header and footer. Only the menu items change, depending on if the user is logged out, logged in or it's the admin
-* intentions.html shows all added intentions from all users
+* intentions.html is the landing page and shows all added intentions from it's users
 * register.html shows two required fields: username and password
 * login.html is the same as the register.html
-* etc etc
+* etc etc xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
 ### Skeleton
 * Header: Right Aligned Links from [Materialize](https://materializecss.com/)
@@ -145,7 +150,9 @@ Card 2: This is also where the profile can be deleted.
 
 __Intentions Page__<br>
 Read (view) all intentions. <br>
-This page shows all the posts made on the website.
+This page shows all the posts made on the website, sorted by Username.<br>
+* In collapsible-header: intention_name and edit_intention. edit_intention shows only if this intention was created by this user
+* In collapsible-body: intention_description, division_name, due_date, created_by and delete_intention. delete_intention shows only if this intention was created by this user
 ![](static/img/all_intentions.JPG)
 
 __Add Intention__<br>
@@ -167,30 +174,32 @@ The same form as Add Intention, only then filled in with the information when ad
 ![](static/img/edit_intention_screenshot.JPG)
 
 __Manage Divisions__<br>
-Overview of all the Divisions. 
+Overview of all the Divisions. <br>
+Only accessible by the admin.
 ![](static/img/manage_division_screenshot.JPG)
 
 __Edit Division__<br>
-Edit a Division. Here you can change the name of a Division. This will be sent to the Mongo database and will be selectable when you want to add a New Intention.
+Edit a Division. Here you can change the name of a Division. This will be sent to the Mongo database and will be selectable when you want to add a New Intention.<br>
+Only accessible by the admin.
 ![](static/img/edit_division_screenshot.JPG)
 
 __Add Division__<br>
-Add a New Division. Here you van add a New Division. This will be sent to the Mongo database and will be selectable when you want to add a New Intention.
+Here you van add a New Division. This will be sent to the Mongo database and will be selectable when you want to add a New Intention.<br>
+Only accessible by the admin.
 ![](static/img/add_division_screenshot.JPG)
 
 ### Code structure
 
 ![](static/img/code_structure.JPG)
 
-Webpage connections:
+Webpage connections: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 <br>
 
 ### Features Left to Implement
 <ol>
  <li>A button to share your Intention on Social Media
  <li>When there a hounderds of Intentions added, a Pagination will be needed
- <li>All Intentions sorted by due_date
- <li>Show all added Intentions by user on it's Profile Oage
+ <li>Show all added Intentions by user on it's Profile Page
 </ol>
 
 ## Technologies
@@ -253,6 +262,6 @@ The content is made up and written by me. The intentions are added by diffirent 
 The photos used in this website were obtained from [Pixabay](https://pixabay.com/).
 
 ### Acknowledgements
-* [Code Institute course](https://codeinstitute.net/) course & Student Care
+* [Code Institute course](https://codeinstitute.net/) course
 * [YouTube](https://www.youtube.com/)
 * [Slack](https://slack.com/) community
