@@ -34,9 +34,9 @@ By adding a Division, Intention, Description and a Due Date, the Intention will 
 * A Base Page with the header, footer and background image for all the other pages
 * A Landing Page where visitors can see all the Intentions set by it's users
 * A navigation bar and footer that change depending on whether the user is logged in or not
-* A Register page for new users to create a profile
+* A Register page for new users to create an account
 * A Login Page for users to Login
-* A Profile Page for users to add a new intention and an option to delete their profile
+* A Profile Page for users to add a new intention and an option to delete their account
 * A Sign Out button that is easy to find on every page in the navigation bar and footer
 * An Add Intention Page to Add a new Intention
 * A Edit Intention Page to Edit a existing Intention
