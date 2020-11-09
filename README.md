@@ -81,6 +81,7 @@ By adding a Division, Intention, Description and a Due Date, the Intention will 
 * Header: 
   * darken2
   * white text
+  * icon from [Font Awesome](https://fontawesome.com/)
 * Footer
   * bottom = darken4
   * top = darken2 with icons from [Font Awesome](https://fontawesome.com/)
