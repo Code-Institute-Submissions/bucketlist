@@ -18,7 +18,7 @@ As a new user:
 As a registrated & logged in user:
 * I can Add my own bucketlist Intentention
 * I can Edit my Intention
-* I can Cancel my Intention
+* I can Delete my Intention by clicking Done
 * I can Delete my profile
 
 As a Administrator:
