@@ -27,7 +27,7 @@ As a Administrator:
 * I can Delete a Division
 
 ### Strategy
-This website is for people who want to set there Bucketlist Intention and share it with the other users of this website. <br>
+This website is for people who want to set their Bucketlist Intention and share it with the other users of this website. <br>
 By adding a Division, Intention, Description and a Due Date, the Intention will be more real, then when it stays in your head.
 
 ### Scope
