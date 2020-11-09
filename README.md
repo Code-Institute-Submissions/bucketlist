@@ -263,13 +263,14 @@ These are the steps that were taken to deploy to Heroku:
 <ol>
  <li>Create a requirements.txt file so that Heroku can install the necessary dependencies to run the app. The command used to create the file: pip3 freeze --local > requirements.txt.
  <li>Create a Procfile so that Heroku could tell what kind of application it is deploying and how to run. The command used to create the file: echo web: python run.py > Procfile.
- <li>Create a free [Heroku](https://heroku.com/) account.
+ <li>Create a free Heroku account.
  <li>Create a new app for the project, selecting a name for the app and choose the closest region.
  <li>In the Deploy tab choose deployment method GitHub, select your GitHub project.
- <li>In the Settings tab choose Reveal Config Vars and put in the same values as in your env.py, like the following values:
-  ![](static/img/envpy.JPG)
+ <li>In the Settings tab choose Reveal Config Vars and put in the same values as in your env.py.
  <li>Open app.
 </ol>
+Env.py / Reveal Config Vars:
+![](static/img/envpy.JPG)
 
 ## Credits
 
