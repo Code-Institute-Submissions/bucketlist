@@ -145,7 +145,7 @@ The login page is simple, users can enter their username and password. This is a
 
 __Profile page__<br>
 Card 1: Shows the username and an extra button to add a new Intention. <br>
-Card 2: This is also where the profile can be deleted.
+Card 2: This is where the profile can be deleted.
 ![](static/img/profile_screenshot.JPG)
 
 __Intentions Page__<br>
@@ -163,6 +163,7 @@ The following details need to be filled in on this form:
  <li>Intention Division
  <li>Intention Name
  <li>Intention Description
+ <li>Due Date
 </ol>
 When the Submit button is pressed, the post is sent to the Mongo database and will show up on the main Intentions Page. <br>
 
