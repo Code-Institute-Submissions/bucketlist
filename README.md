@@ -141,12 +141,12 @@ The following wireframes were created using Balsamiq to design the website layou
 The webpage consists of the following features:
 
 __The navigation bar__<br>
-The <ins>title</ins> and <ins>home</ins> link will lead to intentions.html (landing page). <br>
-The <ins>register</ins> link will lead to register.html. <br>
-The <ins>login</ins> link will lead to login.html. <br>
-The <ins>profile</ins> link will lead to profile.html. <br>
-The <ins>new intention</ins> link will lead to add_intention.html. <br>
-The <ins>manage devisions</ins> link will lead to edit_divisions.html. <br>
+The <ins>Bucketlist Title</ins> and <ins>Home</ins> link will lead to intentions.html (landing page). <br>
+The <ins>Register</ins> link will lead to register.html. <br>
+The <ins>Login</ins> link will lead to login.html. <br>
+The <ins>Profile</ins> link will lead to profile.html. <br>
+The <ins>New Intention</ins> link will lead to add_intention.html. <br>
+The <ins>Manage Divisions</ins> link will lead to edit_divisions.html. <br>
 The <ins>Logout</ins> link wil lead to login.html.
 
 Navbar for the logged out user:<br>
@@ -159,6 +159,7 @@ Navbar for the mobile device user:<br>
 ![](static/img/navbar_mobile.JPG)
 
 __Footer__<br>
+Footer with Copyright, Social Media icons and the links as in the Navbar.<br>
 Footer for the logged out user:<br>
 ![](static/img/footer.JPG)
 Footer for the logged in user:<br>
