@@ -183,7 +183,7 @@ Card 2: This is where the profile can be deleted.
 __Intentions Page__<br>
 Read (view) all intentions. <br>
 This page shows all the posts made on the website, sorted by Username.<br>
-* In collapsible-header: intention_name and Edit button. The dit button shows only if this intention was created by this user. When pressed, it will lead to the page edit_intention.html
+* In collapsible-header: intention_name and Edit button. The Edit button shows only if this intention was created by this user. When pressed, it will lead to the page edit_intention.html
 * In collapsible-body: intention_description, division_name, due_date, created_by and done button. The done button shows only if this intention was created by this user. When pressed, the intention will be deleted.
 ![](static/img/all_intentions.JPG)
 
@@ -193,7 +193,7 @@ A simple form in the same style as all other forms on the website. When a user i
 The following details need to be filled in on this form:
 <ol>
  <li>Intention Division
- <li>Intention Name
+ <li>Division Name
  <li>Intention Description
  <li>Due Date
 </ol>
