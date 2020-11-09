@@ -108,6 +108,10 @@ By adding a Division, Intention, Description and a Due Date, the Intention will 
   * lighten5 card with black text
   * darken4 button with white text
   * icons from [Font Awesome](https://fontawesome.com/)
+* Edit Intention Page
+  * lighten5 card with black text
+  * darken4 button with white text
+  * icons from [Font Awesome](https://fontawesome.com/)
 * Manage Divisions page 
   * all white text
   * title with background image from [Pixabay](https://pixabay.com/), same as homepage/all intentions
