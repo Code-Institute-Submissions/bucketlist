@@ -141,6 +141,12 @@ The following wireframes were created using Balsamiq to design the website layou
 The webpage consists of the following features:
 
 __The navigation bar__<br>
+The <ins>title</ins> and <ins>home</ins> link will lead to intentions.html (landing page). <br>
+The <ins>profile</ins> link will lead to profile.html. <br>
+The <ins>new intention</ins> link will lead to add_intention.html. <br>
+The <ins>manage devisions</ins> link will lead to edit_divisions.html. <br>
+The <ins>Logout</ins> link wil lead to login.html.
+
 Navbar for the logged out user:<br>
 ![](static/img/navbar_loggedout.JPG)
 Navbar for the logged in user:<br>
@@ -174,8 +180,8 @@ Card 2: This is where the profile can be deleted.
 __Intentions Page__<br>
 Read (view) all intentions. <br>
 This page shows all the posts made on the website, sorted by Username.<br>
-* In collapsible-header: intention_name and edit_intention. edit_intention shows only if this intention was created by this user
-* In collapsible-body: intention_description, division_name, due_date, created_by and delete_intention. delete_intention shows only if this intention was created by this user
+* In collapsible-header: intention_name and Edit button. The dit button shows only if this intention was created by this user. When pressed, it will lead to the page edit_intention.html
+* In collapsible-body: intention_description, division_name, due_date, created_by and done button. The done button shows only if this intention was created by this user. When pressed, the intention will be deleted.
 ![](static/img/all_intentions.JPG)
 
 __Add Intention__<br>
