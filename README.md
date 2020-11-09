@@ -15,7 +15,7 @@ As a new user:
 * I can look at other peoples bucketlist Intentions
 * I can Register myself
 
-As a registratated & logged in user:
+As a registrated & logged in user:
 * I can Add my own bucketlist Intentention
 * I can Edit my Intention
 * I can Cancel my Intention
