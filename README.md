@@ -211,9 +211,6 @@ Only accessible by the admin.
 
 ![](static/img/code_structure.JPG)
 
-Webpage connections: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-<br>
-
 ### Features Left to Implement
 <ol>
  <li>A button to share your Intention on Social Media
@@ -270,8 +267,6 @@ When there is an error:
 ![](static/img/add_intention_error.JPG)
 
 ## Deployment
-
-### GitHub xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
 ### Deploying to Heroku
 The app is currently being deployed on Heroku using the master branch on Github. <br>
