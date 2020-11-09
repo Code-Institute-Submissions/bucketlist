@@ -11,14 +11,24 @@ Set your bucketlist intentions today!
 ## UX 
 
 ### User Stories
-* As a new user I can look at other peoples bucketlist intentions
-* As a registered and logged in user I can set my own bucketlist intentention
-As a Administrator
-* Be able to add, edit and delete Devisions
-* 
+As a new user:
+* I can look at other peoples bucketlist Intentions
+* I can Register myself
+
+As a registratated & logging in user:
+* I can Add my own bucketlist Intentention
+* I can Edit my Intention
+* I can Cancel my Intention
+* I can Delete my profile
+
+As a Administrator:
+* I can Add a new Division
+* I can Edit a Division
+* I can Delete a Division
 
 ### Strategy
-This website is for people who want to set there intantions instead of keeping them just in their head.
+This website is for people who want to set there Bucketlist Intention and share it with the other users of this website. <br>
+By adding a Division, Intention, Description and a Due Date, the Intention will be more real, then when it stays in your head.
 
 ### Scope
 * A Base Page with the header, footer and background image for all the other pages
@@ -40,7 +50,12 @@ This website is for people who want to set there intantions instead of keeping t
 * intentions.html is the landing page and shows all added intentions from it's users
 * register.html shows two required fields: username and password
 * login.html is the same as the register.html
-* etc etc xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+* profile.html is the page where you can add a new intention or delete your account
+* add_intention.html is where you can put the details of your intention
+* edit_intention.html is where you can change the details of your intention
+* divisions.html is the page where the admin can manage the divisions
+* add_division.html is the page where the admin can add a new division
+* edit_division.html is the page where the admin can edit a excisting division
 
 ### Skeleton
 * Header: Right Aligned Links from [Materialize](https://materializecss.com/)
@@ -204,6 +219,7 @@ Webpage connections: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
  <li>A button to share your Intention on Social Media
  <li>When there a hounderds of Intentions added, a Pagination will be needed
  <li>Show all added Intentions by user on it's Profile Page
+ <li>Expand the Profile Page with more Database details
 </ol>
 
 ## Technologies
@@ -277,10 +293,10 @@ Env.py / Reveal Config Vars:
 ## Credits
 
 ### Content
-The content is made up and written by me. The intentions are added by diffirent users.
+The content is made up and written by me. The Intentions are added by different users.
 
 ### Media
-The photos used in this website were obtained from [Pixabay](https://pixabay.com/).
+The images used on this website were obtained from [Pixabay](https://pixabay.com/). The images are used with the direct html on the page.
 
 ### Acknowledgements
 * [Code Institute course](https://codeinstitute.net/) course
