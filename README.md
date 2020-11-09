@@ -142,6 +142,8 @@ The webpage consists of the following features:
 
 __The navigation bar__<br>
 The <ins>title</ins> and <ins>home</ins> link will lead to intentions.html (landing page). <br>
+The <ins>register</ins> link will lead to register.html. <br>
+The <ins>login</ins> link will lead to login.html. <br>
 The <ins>profile</ins> link will lead to profile.html. <br>
 The <ins>new intention</ins> link will lead to add_intention.html. <br>
 The <ins>manage devisions</ins> link will lead to edit_divisions.html. <br>
