@@ -270,6 +270,7 @@ These are the steps that were taken to deploy to Heroku:
  <li>Open app.
 </ol>
 Env.py / Reveal Config Vars:
+
 ![](static/img/envpy.JPG)
 
 ## Credits
