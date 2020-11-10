@@ -187,7 +187,7 @@ __Intentions Page__<br>
 Read (view) all intentions. <br>
 This page shows all the posts made on the website, sorted by Username.<br>
 * In collapsible-header: intention_name and Edit button. The Edit button shows only if this intention was created by this user. When pressed, it will lead to the page edit_intention.html
-* In collapsible-body: intention_description, division_name, due_date, created_by and done button. The done button shows only if this intention was created by this user. When pressed, the intention will be deleted.
+* In collapsible-body: intention_description, division_name, due_date, created_by and done button. The Done button shows only if this intention was created by this user. When pressed, the intention will be deleted from the database and from the Intentions Page. The user will stay on this page. <br>
 ![](static/img/all_intentions.JPG)
 
 __Add Intention__<br>
@@ -208,21 +208,27 @@ The created_by is automatic created and linked with the username.<br>
 __Edit Intention__<br>
 Here the added Intention can be edited.<br>
 The same form as Add Intention, only then filled in with the information when added.<br>
+When the Edit Intention button is pressed, the changed inforamtion will be sent to the database. The user will stay on this page.<br>
+When the Cancel button is pressed, the user will be directed to Intentions page.<br>
 ![](static/img/edit_intention_screenshot.JPG)
 
 __Manage Divisions__<br>
 Overview of all the Divisions, only accessible by the admin. <br>
-The Edit button will lead to the edit_division page. The Delete button will delete the division from the database.<br>
+The Edit button will lead to the edit_division page. <br>
+The Delete button will delete the division from the database and the user will stay on the Manage Divisions page.<br>
 ![](static/img/manage_division_screenshot.JPG)
 
 __Edit Division__<br>
 Edit a Division, only accessible by the admin. <br> 
-Here you can change the name of a Division. This will be sent to the database and will be selectable when you want to add a New Intention.<br>
+Here you can change the name of a excisting Division. <br>
+When the Edit button is pressed, the changed name will be sent to the database and will be selectable when you want to add a New Intention.<br>
+The user will be directed to the Manage Division page.<br>
 ![](static/img/edit_division_screenshot.JPG)
 
 __Add Division__<br>
 Here you can add a New Division, only accessible by the admin. <br>
-This will be sent to the database and will be selectable when you want to add a New Intention.<br>
+When The Add button is pressed, the New Division will be sent to the database and will be selectable when you want to add a New Intention.<br>
+The user will be directed to the Manage Divisions page when pressing the Edit or Cancel button.<br>
 ![](static/img/add_division_screenshot.JPG)
 
 ### Code structure
