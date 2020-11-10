@@ -207,22 +207,22 @@ The created_by is automatic created and linked with the username.<br>
 
 __Edit Intention__<br>
 Here the added Intention can be edited.<br>
-The same form as Add Intention, only then filled in with the information when added.
+The same form as Add Intention, only then filled in with the information when added.<br>
 ![](static/img/edit_intention_screenshot.JPG)
 
 __Manage Divisions__<br>
-Overview of all the Divisions. <br>
-Only accessible by the admin.
+Overview of all the Divisions, only accessible by the admin. <br>
+The Edit button will lead to the edit_division page. The Delete button will delete the division from the database.<br>
 ![](static/img/manage_division_screenshot.JPG)
 
 __Edit Division__<br>
-Edit a Division. Here you can change the name of a Division. This will be sent to the Mongo database and will be selectable when you want to add a New Intention.<br>
-Only accessible by the admin.
+Edit a Division, only accessible by the admin. <br> 
+Here you can change the name of a Division. This will be sent to the database and will be selectable when you want to add a New Intention.<br>
 ![](static/img/edit_division_screenshot.JPG)
 
 __Add Division__<br>
-Here you van add a New Division. This will be sent to the Mongo database and will be selectable when you want to add a New Intention.<br>
-Only accessible by the admin.
+Here you can add a New Division, only accessible by the admin. <br>
+This will be sent to the database and will be selectable when you want to add a New Intention.<br>
 ![](static/img/add_division_screenshot.JPG)
 
 ### Code structure
