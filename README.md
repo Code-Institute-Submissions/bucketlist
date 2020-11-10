@@ -201,7 +201,7 @@ The following details need to be filled in on this form:
  <li>Due Date
 </ol>
 When the Submit button is pressed, the post is sent to the Mongo database and will show up on the main Intentions Page. <br>
-The __created_by__ is automatic created and linked with the __username__.<br>
+The created_by is automatic created and linked with the username.<br>
 
 ![](static/img/add_intention_screenshot.JPG)
 
