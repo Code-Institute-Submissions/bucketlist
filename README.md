@@ -198,6 +198,7 @@ The following details need to be filled in on this form:
  <li>Due Date
 </ol>
 When the Submit button is pressed, the post is sent to the Mongo database and will show up on the main Intentions Page. <br>
+The _created_by_ is automatic created and linked with the _username_.<br>
 
 ![](static/img/add_intention_screenshot.JPG)
 
@@ -261,14 +262,14 @@ Only accessible by the admin.
 * [Responsinator](https://www.responsinator.com/) - for testing different divice sizes
 
 __Registration page__<br>
-The Registration page is a required input field. <br>
+The Registration page has two required input fields. <br>
 The username requires a min length of 5 and a max length of 15. <br>
 The password requires a min length of 5 and a max length of 15 and a pattern of "a-z,A-Z,0-9,5-15". <br>
 When there is an error:
 ![](static/img/register_error.JPG)
 
 __Login page__<br>
-The Log In page is a required input field, with the same requirements as the Registration Page.
+The Log In page has two required input fields, with the same requirements as the Registration Page.
 When there is an error:
 ![](static/img/login_error.JPG)
 
