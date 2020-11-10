@@ -38,7 +38,7 @@ By adding a Division, Intention, Description and a Due Date, the Intention will 
 * A Login Page for users to Login
 * A Profile Page for users to add a new intention and an option to delete their account
 * A Sign Out button that is easy to find on every page in the navigation bar and footer
-* An Add Intention Page to Add a new Intention
+* An Page to Add a new Intention
 * A Edit Intention Page to Edit a existing Intention
 * A Divisions Page to see all the existing Divisions. Only for the admin user 
 * An Add Division Page to Add a new Division. Only for the admin user 
@@ -201,7 +201,7 @@ The following details need to be filled in on this form:
  <li>Due Date
 </ol>
 When the Submit button is pressed, the post is sent to the Mongo database and will show up on the main Intentions Page. <br>
-The _created_by_ is automatic created and linked with the _username_.<br>
+The __created_by__ is automatic created and linked with the __username__.<br>
 
 ![](static/img/add_intention_screenshot.JPG)
 
