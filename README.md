@@ -192,8 +192,8 @@ Add a New Intention. <br>
 A simple form in the same style as all other forms on the website. When a user is logged in they can use this form to add a new intention.<br> 
 The following details need to be filled in on this form:
 <ol>
- <li>Intention Division
  <li>Division Name
+ <li>Intention Name
  <li>Intention Description
  <li>Due Date
 </ol>
