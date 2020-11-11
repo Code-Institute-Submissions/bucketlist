@@ -28,7 +28,9 @@ As a Administrator:
 
 ### Strategy
 This website is for people who want to set their Bucketlist Intention and share it with the other users of this website. <br>
-By adding a Division, Intention, Description and a Due Date, the Intention will be more real, then when it stays in your head.
+By adding a Division, Intention, Description and a Due Date, the Intention will be more real, then when it stays in your head.<br>
+On this website users have the option to use the CRUD functions: Create, Read, Update and Delete.<br>
+This website is easy to navigate through the navbar, the footer and on the page itself.
 
 ### Scope
 * A Base Page with the header, footer and background image for all the other pages
